@@ -1,19 +1,19 @@
 {
   "name": "dkf-music-pl",
-  "version": "1.0.0",
-  "description": "<h1>This repository contains the source code for a music playlist web application built with Next.js.</h1> <p>The application is designed to provide users with easy access to playlists across various music genres, including rock 🎸, pop 🎤, electronic 🎧, and rap 🎶. The goal of this project is to create a modern and visually appealing user interface that is simple to use and provides a seamless music streaming experience. The application is built using the latest web technologies and features dynamic page rendering for improved performance.</p> <h2>The source code is well-organized and easy to maintain, making it simple for other developers to contribute to the project.</h2> <p>With this application, we hope to create a reliable and user-friendly platform for music enthusiasts to discover and enjoy their favorite tunes. 🎶💃</p>",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "eslint src/ --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dakrfox/DKF-MUSIC-PL.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dakrfox/DKF-MUSIC-PL/issues"
-  },
-  "homepage": "https://github.com/Dakrfox/DKF-MUSIC-PL#readme"
+  "dependencies": {
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
