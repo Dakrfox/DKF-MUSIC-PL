@@ -1,0 +1,21 @@
+@import "vars";
+
+.playlist_container{
+    background-color: $--electro;
+    min-height: 100vh;
+    padding: 5%;
+}
+.title{
+    text-align: center;
+}
+.playlist{
+    padding: 50px;
+    font-size: 32px;
+}
+.list_item{
+    padding: 20px;
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+}

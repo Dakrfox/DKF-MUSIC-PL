@@ -4,14 +4,18 @@ import moon from "@icons/moon.svg"
 import prism from "@icons/prism.svg"
 import nuclear from "@icons/nuclear.svg"
 import Image from "next/image"
+import Footer from "@components/Footer"
+import { useRouter } from 'next/router';
 
 
 export default function Home() {
+  const router = useRouter();
   return (
 
     <div className={styles.wrapper}>
       <section id="hero" className={styles.hero_container}>
-        <div className={styles.rock_container} >
+        
+        <div className={styles.rock_container} onClick={()=>router.push('/rock')}>
           <div className={styles.content}>
             <div className={styles.icon}>
               <Image src={nuclear} alt="flame" />
@@ -21,7 +25,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.pop_container}>
+        
+        <div className={styles.pop_container} onClick={()=>router.push('/pop')}>
           <div className={styles.content}>
             <div className={styles.icon}>
               <Image src={moon} alt="flame" />
@@ -31,7 +36,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.electro_container}>
+        <div className={styles.electro_container} onClick={()=>router.push('/electro')}>
           <div className={styles.content}>
             <div className={styles.icon}>
               <Image src={prism} alt="flame" />
@@ -41,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.rap_container}>
+        <div className={styles.rap_container} onClick={()=>router.push('/rap')}>
           <div className={styles.content}>
             <div className={styles.icon}>
               <Image src={flame} alt="flame" />
@@ -55,7 +60,7 @@ export default function Home() {
       <section className={styles.about} id="about">
         <div className={`${styles}[about-it]`}>
           <div className={styles.title}>
-            <h1>About DKF-MUSIC-PL</h1>
+            <h1>ABOUT DKF-MUSIC-PL</h1>
           </div>
           <div className={styles.main_text}>
             <p className={styles.p_text}>Welcome to our web music platform, an application designed to offer a music discovery experience
@@ -77,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+      <Footer />
     </div>
 
   );

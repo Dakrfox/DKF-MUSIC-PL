@@ -2,7 +2,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Didact Gothic', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 section {
   scroll-snap-align: start;
+}
+h1{
+  font-size: 40px;
+}
+p{
+  font-size: 18px;
 }
