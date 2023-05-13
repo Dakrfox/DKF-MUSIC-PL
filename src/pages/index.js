@@ -13,6 +13,18 @@ export default function Home() {
   return (
 
     <div className={styles.wrapper}>
+      <div className={styles.header}>
+        <div className={styles.header_left}>
+          <h2>DKF-MUSIC-PL</h2>
+        </div>
+        <div className={styles.header_right}>
+          <ul className={styles.header_list}>
+            <li className={styles.header_list_item}><a href="#">About</a></li>
+            <li className={styles.header_list_item}><a href="#">Contact</a></li>
+            <li className={styles.header_list_item}><a href="#">DK-Fox</a></li>
+          </ul>
+        </div>
+      </div>
       <section id="hero" className={styles.hero_container}>
         
         <div className={styles.rock_container} onClick={()=>router.push('/rock')}>

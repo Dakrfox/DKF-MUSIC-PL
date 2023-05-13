@@ -1,5 +1,42 @@
 @import "_vars.scss";
-
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(black, 0.1);
+    color: black;
+    z-index:100;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+}
+.header_list{
+    list-style: none;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header_list_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    text-decoration: none;
+}
+.header_list_item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+}
 @keyframes expand {
     0% {
         width: 110%;
@@ -98,6 +135,7 @@
     color: #fff;
     font-size: 32px;
     margin-top: 32px;
+    overflow: visible;
 }
 
 .about-it {
