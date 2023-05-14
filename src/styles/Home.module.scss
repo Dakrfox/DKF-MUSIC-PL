@@ -2,7 +2,7 @@
 .header{
     width: 100%;
     height: 70px;
-    background-color: rgba(black, 0.1);
+    background-color: rgba(black, 0.01);
     color: black;
     z-index:100;
     position: absolute;
@@ -17,7 +17,7 @@
     list-style: none;
     width: 300px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 .header_left{
     display: flex;
@@ -36,6 +36,14 @@
     font-weight: 600;
     color: #fff;
     font-size: 20px;
+}
+.color_white{
+    color: #fff !important;
+    
+}
+.color_black{
+    color: #000 !important;
+    
 }
 @keyframes expand {
     0% {
