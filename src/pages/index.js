@@ -48,7 +48,7 @@ export default function Home() {
       elemento.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+console.log(headerColor)
   return (
 
     <div className={styles.wrapper} ref={elementRef}>
