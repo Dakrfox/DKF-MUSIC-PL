@@ -1,28 +1,48 @@
 @import "vars";
 
-.playlist_container{
+.playlist_container {
     background-color: $--rock;
     min-height: 100vh;
     width: 100%;
     padding: 5%;
+
 }
-.title{
+
+.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+
 }
-.image{
-    fill: #ffffff;
+
+.image {
+    cursor: pointer;
+
 }
-.playlist{
+
+.playlist {
     padding: 50px;
     font-size: 32px;
+
 }
-.list_item{
+
+.list_item {
     padding: 20px;
     cursor: pointer;
+    
 }
-.list{
+
+.list {
     list-style: none;
+}
+.list_item_songs{
+    margin: 10px 0;
+}
+.list_item_music{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 50px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
 }

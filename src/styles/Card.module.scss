@@ -1,0 +1,25 @@
+.card_container{
+    width: 200px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+} 
+
+.card_img{
+    grid-column: 1;
+    width: 50px;
+    height: 50px;
+}
+.card_text{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card_name{
+    font-weight: 700;
+}
+.card_author{
+    font-weight: 400;
+}
