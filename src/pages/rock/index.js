@@ -46,95 +46,19 @@ export default function Rock() {
             <li className={styles.list_item} onClick={() => setShowMenu(!showMenu)}>
               80's Greatest Hits
               {(showMenu) && (
-              <div className={styles.dropdown_content}>
-                <ol className={styles.list_item_music}>
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
+                <div className={styles.dropdown_content}>
+                  <ol className={styles.list_item_music}>
+                    {
+                      Array.from({ length: 25 }).map((_, i) => (
+                        <li key={i} className={styles.list_item_songs}>
+                          <Card />
+                        </li>
+                      ))
+                    }
 
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
+                  </ol>
+                </div>)}
 
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-
-                  <li className={styles.list_item_songs}>
-                    <Card />
-                  </li>
-                  
-                </ol>
-              </div>)}
-              
             </li>
             <li className={styles.list_item}>Rock en Español</li>
             <li className={styles.list_item}>Rock Classics</li>
