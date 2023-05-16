@@ -253,7 +253,170 @@ const rock = {
         }
 
     ],
-    rock_en_español: [],
+    rock_en_español: [
+        {
+            name: "La Flaca",
+            author: "Jarabe de Palo",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "En el Muelle de San Blas",
+            author: "Maná",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Maldito Duende",
+            author: "Héroes del Silencio",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Cuando Pase el Temblor",
+            author: "Soda Stereo",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "El Final",
+            author: "Los Rodríguez",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Lamento Boliviano",
+            author: "Enanitos Verdes",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Guitarra Blanca",
+            author: "Hombres G",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "La Chispa Adecuada",
+            author: "Héroes del Silencio",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Flaca",
+            author: "Andrés Calamaro",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Mil Horas",
+            author: "Los Abuelos de la Nada",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Pisando Fuerte",
+            author: "Alejandro Sanz",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Prisioneros de la Piel",
+            author: "La Ley",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "El Extranjero",
+            author: "Gustavo Cerati",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Mariposa Traicionera",
+            author: "Maná",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "La Célula Que Explota",
+            author: "Caifanes",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        },
+        {
+            name: "Don't You (Forget About Me)",
+            author: "Simple Minds",
+            cover: "",
+            link: [
+                "", 
+                "", 
+                ""
+            ]
+        }
+
+
+    ],
     rock_Classics: [],
     "90s": [],
     eock_n_roll: [],

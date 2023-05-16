@@ -29,7 +29,12 @@ export default function Rock() {
   };
 
   const [showMenu, setShowMenu] = useState(false);
-  
+  const [showMenu1, setShowMenu1] = useState(false);
+  const [showMenu2, setShowMenu2] = useState(false);
+  const [showMenu3, setShowMenu3] = useState(false);
+  const [showMenu4, setShowMenu4] = useState(false);
+  const [showMenu5, setShowMenu5] = useState(false);
+  const [showMenu6, setShowMenu6] = useState(false);
   return (
     <>
       <div className={styles.playlist_container}>
@@ -38,14 +43,14 @@ export default function Rock() {
           <Image className={styles.image} src={play_skip_back} width={50} height={50} onClick={handleClickBefore} />
           <h1>ROCK</h1>
           <Image className={styles.image} src={play_skip_forward} width={50} height={50} onClick={handleClickNext} />
-          <Image className={styles.image} styles="fill:white" src={play_forward} width={50} height={50} onClick={handleClickFinish} />
+          <Image className={styles.image} src={play_forward} width={50} height={50} onClick={handleClickFinish} />
 
         </div>
         <div className={styles.playlist}>
           <ul className={styles.list}>
             <li className={styles.list_item}>
-             <a  onClick={() => setShowMenu(!showMenu)}>80's Greatest Hits</a> 
-              {(showMenu) && (
+             <a  onClick={() => setShowMenu1(!showMenu1)}>80's Greatest Hits</a> 
+              {(showMenu1) && (
                 <div className={styles.dropdown_content}>
                   <ol className={styles.list_item_music}>
                     {
@@ -60,7 +65,23 @@ export default function Rock() {
                 </div>)}
 
             </li>
-            <li className={styles.list_item}>Rock en Español</li>
+            <li className={styles.list_item}>
+            <a  onClick={() => setShowMenu(!showMenu)}>Rock en Español</a>
+            {(showMenu) && (
+                <div className={styles.dropdown_content}>
+                  <ol className={styles.list_item_music}>
+                    {
+                      Array.from({ length: 15 }).map((_, i) => (
+                        <li key={i} className={styles.list_item_songs}>
+                          <Card name={rock.rock_en_español[i].name} author={rock.rock_en_español[i].author} cover={rock.rock_en_español[i].cover}  link={rock.rock_en_español[i].link} key={`item_rock_en_español_${i}`}/>
+                        </li>
+                      ))
+                    }
+
+                  </ol>
+                </div>)}
+              
+              </li>
             <li className={styles.list_item}>Rock Classics</li>
             <li className={styles.list_item}>90's Greatest</li>
             <li className={styles.list_item}>Rock N Roll</li>
