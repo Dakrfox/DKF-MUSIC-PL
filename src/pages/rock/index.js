@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import Footer from "@components/Footer";
 import { useState } from "react";
 import Card from "@components/card";
-
+import {rock} from "../../data.mjs";
 
 export default function Rock() {
   const router = useRouter();
@@ -29,7 +29,7 @@ export default function Rock() {
   };
 
   const [showMenu, setShowMenu] = useState(false);
-
+  
   return (
     <>
       <div className={styles.playlist_container}>
@@ -43,15 +43,15 @@ export default function Rock() {
         </div>
         <div className={styles.playlist}>
           <ul className={styles.list}>
-            <li className={styles.list_item} onClick={() => setShowMenu(!showMenu)}>
-              80's Greatest Hits
+            <li className={styles.list_item}>
+             <a  onClick={() => setShowMenu(!showMenu)}>80's Greatest Hits</a> 
               {(showMenu) && (
                 <div className={styles.dropdown_content}>
                   <ol className={styles.list_item_music}>
                     {
                       Array.from({ length: 25 }).map((_, i) => (
                         <li key={i} className={styles.list_item_songs}>
-                          <Card />
+                          <Card name={rock.g80s[i].name} author={rock.g80s[i].author} cover={rock.g80s[i].cover}  link={rock.g80s[i].link} key={`item_rock_80s_${i}`}/>
                         </li>
                       ))
                     }

@@ -1,8 +1,9 @@
 .card_container{
-    width: 200px;
+    width: 300px;
     height: 50px;
     display: grid;
     grid-template-columns: 50px 1fr;
+    overflow: hidden;
 } 
 
 .card_img{
@@ -11,15 +12,22 @@
     height: 50px;
 }
 .card_text{
+    width: 100%;
     grid-column: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .card_name{
     font-weight: 700;
+    font-size: 16px !important;
+    
+    
 }
 .card_author{
     font-weight: 400;
+    font-size: 14px !important;
+    
 }
