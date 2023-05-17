@@ -257,168 +257,278 @@ const rock = {
         {
             name: "La Flaca",
             author: "Jarabe de Palo",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/Ob1GC8NnPzWSJ2siqaylsEuSueRh4gPScQNJCykjCJFkQsvIUIWDqA-NC4Ak5sleKM5Iq1Ax05sw4nvR=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=YFQC3_fC6i4",
+                "https://open.spotify.com/track/6fCtz4wdGoYWfc1pG06BzY?autoplay=true",
+                "https://music.apple.com/jp/album/la-flaca/1519318885?i=1519318886"
             ]
         },
         {
             name: "En el Muelle de San Blas",
             author: "Maná",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/-zlXfkRNBMcSvXyCsqyv4Kt4qVR5mwLK3k3PsH1JHxrBo_jg7Np1ZcbXg5cgnUfLHlmMcB9P0KhNrUyr=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=tc0tKsmeF7A",
+                "https://open.spotify.com/track/0mvocLIWUnT10znvIXwHGr?autoplay=true",
+                "https://music.apple.com/jp/album/en-el-muelle-de-san-bl%C3%A1s/298783108?i=298783109"
             ]
         },
         {
             name: "Maldito Duende",
             author: "Héroes del Silencio",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/nwqYy3LkBFN2VJCrg_M0Ig1v-MipkiTyepkG9pHIp-f7UTlNqsWFjzEgOXrOoIRwnqzouUEA9ygJozA=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=xdkWYD7hjrQ",
+                "https://open.spotify.com/track/7vcDJCAO356RYkCfiUozmE?autoplay=true",
+                "https://music.apple.com/jp/album/maldito-duende/697634139?i=697634980"
             ]
         },
         {
             name: "Cuando Pase el Temblor",
             author: "Soda Stereo",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/y221So-aBTqFkuF3XPrSAs6xazGx4ou-Qsic0ybEW1_2lZQR11NYqJUuw_Y-rXGuSj3PFS7HllgTY_w=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
-            ]
-        },
-        {
-            name: "El Final",
-            author: "Los Rodríguez",
-            cover: "",
-            link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=7PHqjNbwnwU",
+                "https://open.spotify.com/track/2ExpCKBxiHbgzepERl1t4D?autoplay=true",
+                "https://music.apple.com/jp/album/cuando-pase-el-temblor/262637460?i=262637620"
             ]
         },
         {
             name: "Lamento Boliviano",
             author: "Enanitos Verdes",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/KhoZDlRduXbW5l8jJcRFWY7121ZAwzNbOg6Smj749mR70c56StjQ9MISBiz7t8IVo7aYxl8wvxhZwqavXg=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=CkvtZf6Fi74",
+                "https://open.spotify.com/track/6Pur3hWy6Nzc27ilmsp5HA?autoplay=true",
+                "https://music.apple.com/jp/album/lamento-boliviano-en-vivo/1394504690?i=1394505365"
             ]
         },
         {
             name: "Guitarra Blanca",
             author: "Hombres G",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/NUJyW0g76dwZWadsXXNpTwsdbGkFUgsoAk_7lLF178dEKiadc5k0GC1PCVX--sLJVMX4_BUhyZalytuJ=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=ualhXejakgA",
+                "https://open.spotify.com/track/3V9dPuQWZOUQY3KYJJWnP3?autoplay=true",
+                "https://music.apple.com/jp/album/guitarras-blancas/187443530?i=187443839"
             ]
         },
         {
             name: "La Chispa Adecuada",
             author: "Héroes del Silencio",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/fqSuLVbpHJdp0ZdHJfpFdRuSFhNFipDHZtWyfUqykOHL6Sh_00cea7washm_Hfk8pJChu92zAp9fCQoz=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=mNO5sfXKSmI",
+                "https://open.spotify.com/track/0hm6pzJbqYAMix6IcvxTcD?autoplay=true",
+                "https://music.apple.com/jp/album/la-chispa-adecuada-bendecida-3/695669039?i=695669772"
             ]
         },
         {
             name: "Flaca",
             author: "Andrés Calamaro",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/kJr6sk_R2ByfWw1tPx2F09CjBPFUWPgxh6QfJT4QixvePvs7IBXobWQphl-jgpPqM2hNu5d6NfKVFUdr9Q=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=uEV4RqqnlSE",
+                "https://open.spotify.com/track/1p7m9H4H8s0Y7SgRm7j3ED?autoplay=true",
+                "https://music.apple.com/jp/album/flaca/89605475?i=89605083"
             ]
         },
         {
             name: "Mil Horas",
-            author: "Los Abuelos de la Nada",
-            cover: "",
+            author: "Andrés Calamaro",
+            cover: "https://cdns-images.dzcdn.net/images/cover/b16e4f7c20815a1bb0298b9ad4f71dfa/500x500.jpg",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=O4uBSbkxoik",
+                "https://open.spotify.com/track/5DNELViKzmP19e4WZLXKZj?autoplay=true",
+                "https://music.apple.com/jp/album/mil-horas/1622252090?i=1622252634"
             ]
         },
         {
             name: "Pisando Fuerte",
             author: "Alejandro Sanz",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/SaKE9UsexccvOyhErREXOwa2gvjyZT2bHeLWelPfnjtOhsudjKbZVZhgwDHtfifhglFG0Vy106MeuW8=w544-h544-s-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=uBo-L9uIfV0",
+                "https://open.spotify.com/track/4RXaCB8ClD3BCGYdLxO19B?autoplay=true",
+                "https://music.apple.com/jp/album/pisando-fuerte/193412228?i=193412277"
             ]
         },
         {
             name: "Prisioneros de la Piel",
             author: "La Ley",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/ECwnVgC6HleA81Nd638ZPabmsakfu3lsVHdI3tnIphEw3ltWxrKnTVATkqhBv6fYVv9OpwdXShXFBChr=w544-h544-s-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
-            ]
-        },
-        {
-            name: "El Extranjero",
-            author: "Gustavo Cerati",
-            cover: "",
-            link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=sAbDvLi7-MA",
+                "https://open.spotify.com/track/5w0xj8YTFvAjh3SWw3t8A1?autoplay=true",
+                "https://music.apple.com/jp/album/prisioneros-de-la-piel/1420247118?i=1420247131"
             ]
         },
         {
             name: "Mariposa Traicionera",
             author: "Maná",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/a2Ign6nDPayi9cxc-n43BqmwWEjJJldv570Mr6CX-8JU2-GCk3hmRkKQark1Tfy1iNRXkkuaF9UCKS8A=w544-h544-s-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=vwYGbqrDsow",
+                "https://open.spotify.com/track/0Pjsm4AaJGPOXHoB6xCgJB?autoplay=true",
+                "https://music.apple.com/jp/album/mariposa-traicionera/258905983?i=258906401"
             ]
         },
         {
             name: "La Célula Que Explota",
             author: "Caifanes",
-            cover: "",
+            cover: "https://images.genius.com/6b37c0a1ab1d6a2584c74463811a5484.600x600x1.jpg",
             link: [
-                "", 
-                "", 
-                ""
+                "https://open.spotify.com/track/5mB0MGsRfKZALHrXjnktCK?autoplay=true",
+                "https://music.apple.com/jp/album/la-celula-que-explota/391482581?i=391482850"
             ]
         },
         {
             name: "Don't You (Forget About Me)",
             author: "Simple Minds",
-            cover: "",
+            cover: "https://lh3.googleusercontent.com/QgWAuT3LfcaU0ptkvO3k0P1-Q_TqJcE0JYf51uRJV2b0C0IMWbZ0f-3QgzbwDnCTfsnoi7K4olDD4Iw=w544-h544-l90-rj",
             link: [
-                "", 
-                "", 
-                ""
+                "https://music.youtube.com/watch?v=oNXcO55sSgU",
+                "https://open.spotify.com/track/3fH4KjXFYMmljxrcGrbPj9?autoplay=true",
+                "https://music.apple.com/jp/album/dont-you-forget-about-me/1509063283?i=1509063286"
             ]
         }
+    ],
+    rock_Classics: [
+
+        {
+            name: "Stairway to Heaven",
+            author: "Led Zeppelin",
+            cover: "https://lh3.googleusercontent.com/VTIbtcsYRXaGIotLbtxZgb3Gy0O97DDL8kUlQ4BADUb74pa1gySO9JgajuQAvZ-473YIbvWlr5dN2vVW=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=X791IzOwt3Q",
+                "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc?autoplay=true",
+                "https://music.apple.com/co/album/stairway-to-heaven-live/563633043?i=563633258"]
+        },
+        {
+            name: "Bohemian Rhapsody",
+            author: "Queen",
+            cover: "https://lh3.googleusercontent.com/9CrMB2k2WFBUGXQXlaFfwP8e5_Q8FiUqQ8ljMGWm22VyLmvLZEqBMPUNjf6FNZrmMDUBTlEsFxk88_kOCQ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=bSnlKl_PoQU",
+                "https://open.spotify.com/track/6l8GvAyoUZwWDgF1e4822w?autoplay=true",
+                "https://music.apple.com/co/album/bohemian-rhapsody/1435374593?i=1435375007"]
+        },
+        {
+            name: "Hotel California",
+            author: "Eagles",
+            cover: "https://lh3.googleusercontent.com/s8QFRo91FYOkY2M1967AtulxiQpHXC7pEjWtsGzCQ4ZN25wnvhasHO0S4e_MWm04-HVfmBRvy8jmbq2-ZA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=BciS5krYL80",
+                "https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv?autoplay=true",
+                "https://music.apple.com/co/album/hotel-california/635770200?i=635770202"]
+        },
+        {
+            name: "Imagine",
+            author: "John Lennon",
+            cover: "https://lh3.googleusercontent.com/3NgQRedyr9sdsiEUyaJ9k2hTl5eTotzV5-6ABSiSGY9SFuHNJnWFcG9wiI-6sKQwCgXNlwp89VqZKR4C=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=rAn-AWXtHv0",
+                "https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?autoplay=true",
+                "https://music.apple.com/co/album/imagine/721272842?i=721275427"]
+        },
+        {
+            name: "Like a Rolling Stone",
+            author: "Bob Dylan",
+            cover: "https://lh3.googleusercontent.com/TL2EK5rqsv4nf2Fe3keiVfvTALiMJmPmTjhtfPH_6P511Lan2gTIBNCwGv1B0jFuC6omHpPaKtd_F2A=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=syNLBJ_Lq9E",
+                "https://open.spotify.com/track/04r1jbDPH2IWUrse9wwy8L?autoplay=true",
+                "https://music.apple.com/co/album/like-a-rolling-stone-rehearsal-remake/1041169203?i=1041170268"]
+        },
+        {
+            name: "Hey Jude",
+            author: "The Beatles",
+            cover: "https://lh3.googleusercontent.com/74ZlD_ClwO8pdKlooxk3BWjGe1NNGU2euQepXyaWilfxceXZj2Uxn4Uk4fOk2btprCSx1lFKH-QlvrbW=w544-h544-l90-rj",
+            link: [
+                "https://music.youtube.com/watch?v=bkApuQWCPdM",
+                "https://open.spotify.com/track/0aym2LBJBk9DAYuHHutrIl?autoplay=true",
+                "https://music.apple.com/co/album/hey-jude-take-2/1441145645?i=1441146373"]
+        },
+        {
+            name: "Born to Run",
+            author: "Bruce Springsteen",
+            cover: "https://lh3.googleusercontent.com/8aK3INgtq69MvZFQ8wO9sFsMFkKFpFT1BJSbgBhUTYdfRuGbo57e2mNMVl_vue3BTS-TSlDn7IhTQa8=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Wu4_zVxmufY&list=OLAK5uy_mSOhVYfA4mGwMGSRP_OIh3B7yQXu8I0b0",
+                "https://open.spotify.com/artist/3eqjTLE0HfPfh78zjh6TqT",
+                "https://music.apple.com/co/album/born-to-run/310730204"]
+        },
+        {
+            name: "Smells Like Teen Spirit",
+            author: "Nirvana",
+            cover: "https://lh3.googleusercontent.com/y5IBmF0YJl0a88GbDmKQE2C596wB3xaqBz4XjLWCoerJz3X4ZVyKdAFBy93VYEPYd6ED0Ue3fNXS8X-cxw=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=7TDeBi34OtE",
+                "https://open.spotify.com/track/1f3yAtsJtY87CTmM8RLnxf?autoplay=true",
+                "https://music.apple.com/co/album/smells-like-teen-spirit-live-in-del-mar-california-1991/1586410660?i=1586410997"]
+        },
+        {
+            name: "Satisfaction",
+            author: "The Rolling Stones",
+            cover: "https://lh3.googleusercontent.com/L5jtbLP3h2Y299N8-yNvfz4V2WdWKrH6V1SHf783fsJaIltYLHZP2BBFJTUuINW3ROjRcNdhyArxdjOO=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=eUpb-ALfUzc",
+                "https://open.spotify.com/track/2PzU4IB8Dr6mxV3lHuaG34?autoplay=true",
+                "https://music.apple.com/co/album/i-cant-get-no-satisfaction-mono-version/1469558372?i=1469560209"]
+        },
+        {
+            name: "Sweet Child O' Mine",
+            author: "Guns N' Roses",
+            cover: "https://lh3.googleusercontent.com/Z2zgZT7ICWRL7ACDERnWaGA3nBmLSK3fqOXDg-EQuhSnwvNV_i5pEQ6-z_m_v4S44HuNKyFjwtmSghqJ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=oMfMUfgjiLg",
+                "https://open.spotify.com/track/7o2CTH4ctstm8TNelqjb51?autoplay=true",
+                "https://music.apple.com/co/album/sweet-child-o-mine/1527145095?i=1527145108"]
+        },
+        {
+            name: "Back in Black",
+            author: "AC/DC",
+            cover: "https://i.ytimg.com/vi/9vWNauaZAgg/maxresdefault.jpg",
+            link: ["https://music.youtube.com/watch?v=9vWNauaZAgg&feature=gws_kp_track", 
+            "https://open.spotify.com/track/7JLqofLzcpdjFHc6oRSBGf?autoplay=true", 
+            "https://music.apple.com/co/album/back-in-black-live/575663793?i=575663796"]
+        },
+        {
+            name: "Purple Haze",
+            author: "Jimi Hendrix ",
+            cover: "https://lh3.googleusercontent.com/f1ix9hLBxs72f6qpRxZaUmhyBfxehYXQr8b4swvT0KnZKvmYK6DWZA11v7qmIO82KQUiBGFLkF1nBLY=w544-h544-l90-rj",
+            link: [
+                "https://music.youtube.com/watch?v=mQ1YfiiLe6Y",
+                "https://music.apple.com/co/album/purple-haze/297466068?i=297466134"]
+        },
+        {
+            name: "Let It Be",
+            author: "The Beatles",
+            cover: "https://lh3.googleusercontent.com/octdAIhLRBSYd5JKOeTsF5zNhQ4C0L3JtOnjUYPvHLtJaxXr68NVW8gUfsE05aarfaDmZe_ibrVMxo-y4g=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=QDYfEBY9NM4",
+                "https://open.spotify.com/track/7iN1s7xHE4ifF5povM6A48?autoplay=true",
+                "https://music.apple.com/co/album/let-it-be/1441164495?i=1441164738"]
+        },
+        {
+            name: "Free Bird",
+            author: "Lynyrd Skynyrd",
+            cover: "https://lh3.googleusercontent.com/3U_kyEsSqSV3mLDRE0BYfnMMaTgmz5M6nI3-kSbkTGnnaZdwl7pJW07KNZmCjpk9hwnFdV6xzwXbsP7KGA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=CqnU_sJ8V-E",
+                "https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?autoplay=true",
+                "https://music.apple.com/co/album/free-bird-live-at-the-fox-theater-1976/1413948379?i=1413948706"]
+        },
+        {
+            name: "Comfortably Numb",
+            author: "Pink Floyd",
+            cover: "https://lh3.googleusercontent.com/EHgn9fr7sP5yj2EZj-2D3TPmLDyaqrPqy-Vk-ryhbppLtqV7MeoI7YcMjHt1RGO28SSR7dNIWt4oAGI=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Gm4vS_dKq50",
+                "https://open.spotify.com/track/5L7ge1RYPPhLyzXKTSdXjb?autoplay=true",
+                "https://music.apple.com/co/album/comfortably-numb-live-at-knebworth-1990/1556545606?i=1556545613"]
+        },
+        {
+            name: "Highway to Hell",
+            author: "AC/DC",
+            cover: "https://lh3.googleusercontent.com/PUFomqBydVJyjWf41HjnsoBmEgA2AkCuy3u9x1Xz6jzVjNgpf01SMhUvgz3kgacUQ6rmXnSpc4UVD4tL=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=ikFFVfObwss",
+                "https://open.spotify.com/track/5Mu7WviNvT9yJeF79V1HS5?autoplay=true",
+                "https://music.apple.com/co/album/highway-to-hell-live/575997666?i=575998098"]
+        },
 
 
     ],
-    rock_Classics: [],
-    "90s": [],
+    g90s: [],
     eock_n_roll: [],
     rock_n_Chill: [],
     grunge: [],

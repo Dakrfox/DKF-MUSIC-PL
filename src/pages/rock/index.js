@@ -71,7 +71,7 @@ export default function Rock() {
                 <div className={styles.dropdown_content}>
                   <ol className={styles.list_item_music}>
                     {
-                      Array.from({ length: 15 }).map((_, i) => (
+                      Array.from({ length: rock.rock_en_español.length}).map((_, i) => (
                         <li key={i} className={styles.list_item_songs}>
                           <Card name={rock.rock_en_español[i].name} author={rock.rock_en_español[i].author} cover={rock.rock_en_español[i].cover}  link={rock.rock_en_español[i].link} key={`item_rock_en_español_${i}`}/>
                         </li>
@@ -82,8 +82,38 @@ export default function Rock() {
                 </div>)}
               
               </li>
-            <li className={styles.list_item}>Rock Classics</li>
-            <li className={styles.list_item}>90's Greatest</li>
+            <li className={styles.list_item}>
+              <a onClick={() => setShowMenu2(!showMenu2)}>Rock Classics</a>
+              {(showMenu2) && (
+                <div className={styles.dropdown_content}>
+                  <ol className={styles.list_item_music}>
+                    {
+                      Array.from({ length: rock.rock_Classics.length }).map((_, i) => (
+                        <li key={i} className={styles.list_item_songs}>
+                          <Card name={rock.rock_Classics[i].name} author={rock.rock_Classics[i].author} cover={rock.rock_Classics[i].cover}  link={rock.rock_Classics[i].link} key={`item_rock_80s_${i}`}/>
+                        </li>
+                      ))
+                    }
+
+                  </ol>
+                </div>)}
+              </li>
+            <li className={styles.list_item}>
+            <a onClick={() => setShowMenu3(!showMenu3)}>90's Greatest</a>
+              {(showMenu3) && (
+                <div className={styles.dropdown_content}>
+                  <ol className={styles.list_item_music}>
+                    {
+                      Array.from({ length: rock.rock_Classics.length }).map((_, i) => (
+                        <li key={i} className={styles.list_item_songs}>
+                          <Card name={rock.rock_Classics[i].name} author={rock.rock_Classics[i].author} cover={rock.rock_Classics[i].cover}  link={rock.rock_Classics[i].link} key={`item_rock_80s_${i}`}/>
+                        </li>
+                      ))
+                    }
+
+                  </ol>
+                </div>)}
+            </li>
             <li className={styles.list_item}>Rock N Roll</li>
             <li className={styles.list_item}>Rock N Chill</li>
             <li className={styles.list_item}>Grunge Essentials</li>
