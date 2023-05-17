@@ -17,6 +17,7 @@ export default function Home() {
   const [appHeight, setAppHeight] = useState(0);
 
   useEffect(() => {
+
     const handleResize = () => {
       setAppHeight(window.innerHeight);
     };
@@ -35,10 +36,10 @@ export default function Home() {
     const elemento = elementRef.current;
     const handleScroll = () => {
       const posicionScroll = elemento.scrollTop;
-      if (posicionScroll < appHeight) {
-        setHeaderColor(true);
-      } else {
+      if (posicionScroll > appHeight) {
         setHeaderColor(false);
+      } else {
+        setHeaderColor(true);
       }
     };
 
