@@ -34,6 +34,7 @@ export default function Electro() {
       </div>
       <div className={styles.playlist}>
         <ul className={styles.list}>
+          
           <li className={styles.list_item}>Workout</li>
           <li className={styles.list_item}>Dance</li>
           <li className={styles.list_item}>HARD</li>

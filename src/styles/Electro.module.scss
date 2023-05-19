@@ -3,6 +3,7 @@
 .playlist_container{
     background-color: $--electro;
     min-height: 100vh;
+    width: 100%;
     padding: 5%;
 }
 .title{
@@ -13,7 +14,6 @@
 }
 .image{
     cursor: pointer;
-
 }
 .playlist{
     padding: 50px;
@@ -25,4 +25,15 @@
 }
 .list{
     list-style: none;
+}
+.list_item_songs{
+    margin: 10px 0;
+}
+.list_item_music{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-size: 20px;
 }

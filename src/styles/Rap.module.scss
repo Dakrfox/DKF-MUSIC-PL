@@ -27,3 +27,14 @@
 .list{
     list-style: none;
 }
+.list_item_songs{
+    margin: 10px 0;
+}
+.list_item_music{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-size: 20px;
+}

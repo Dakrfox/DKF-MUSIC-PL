@@ -947,7 +947,7 @@ const rock = {
             cover: "https://lh3.googleusercontent.com/lSwe-_CDgTRBeJm0GkctfEJ9TPM5qdKztHo1IDBHu0LpnsVAmTl8aaYgpYzo84XDmtmRPuqHrWBJXlo=w544-h544-l90-rj",
             link: ["https://music.youtube.com/watch?v=NUWZ261Cg-0",
                 "https://open.spotify.com/track/1ANfj62LaQ5JLKCWvQ1Ny3?autoplay=true",
-                ]
+            ]
         },
         {
             name: "Alive",
@@ -1073,8 +1073,1610 @@ const rock = {
     ,
 
 };
-const pop = {};
-const electro = {};
-const rap = {};
+
+const pop = {
+    taylor_swift: [],
+    kpop: [
+        {
+            name: "Gangnam Style",
+            author: "PSY",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "DNA",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Ddu-Du Ddu-Du",
+            author: "BLACKPINK",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Boy With Luv",
+            author: "BTS ft. Halsey",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Kill This Love",
+            author: "BLACKPINK",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Fancy",
+            author: "TWICE",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Love Scenario",
+            author: "iKON",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "MIC Drop",
+            author: "BTS ft. Steve Aoki",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Blood Sweat & Tears",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Fake Love",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Whistle",
+            author: "BLACKPINK",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Not Today",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Dope",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Need U",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Lovesick Girls",
+            author: "BLACKPINK",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Spring Day",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "FIRE",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Likey",
+            author: "TWICE",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "As If It's Your Last",
+            author: "BLACKPINK",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Energetic",
+            author: "Wanna One",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Red Flavor",
+            author: "Red Velvet",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Cheer Up",
+            author: "TWICE",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Monster",
+            author: "EXO",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Icy",
+            author: "ITZY",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bboom Bboom",
+            author: "MOMOLAND",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Love Shot",
+            author: "EXO",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bang Bang Bang",
+            author: "BIGBANG",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "TT",
+            author: "TWICE",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Fiesta",
+            author: "IZ*ONE",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Save ME",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Mic Drop (Steve Aoki Remix)",
+            author: "BTS ft. Steve Aoki",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Dynamite",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Wannabe",
+            author: "ITZY",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ],
+    girls_power: [
+        {
+            name: "Bad Romance",
+            author: "Lady Gaga",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Love Story",
+            author: "Taylor Swift",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Single Ladies (Put a Ring on It)",
+            author: "Beyoncé",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Firework",
+            author: "Katy Perry",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Halo",
+            author: "Beyoncé",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Call Me Maybe",
+            author: "Carly Rae Jepsen",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Blank Space",
+            author: "Taylor Swift",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Toxic",
+            author: "Britney Spears",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Wannabe",
+            author: "Spice Girls",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Genie in a Bottle",
+            author: "Christina Aguilera",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Will Always Love You",
+            author: "Whitney Houston",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Crazy in Love",
+            author: "Beyoncé ft. Jay-Z",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Wanna Dance with Somebody",
+            author: "Whitney Houston",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Oops!... I Did It Again",
+            author: "Britney Spears",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Girls Just Want to Have Fun",
+            author: "Cyndi Lauper",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ],
+    dance: [
+        {
+            name: "Uptown Funk",
+            author: "Mark Ronson ft. Bruno Mars",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Dancing Queen",
+            author: "ABBA",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Can't Stop the Feeling!",
+            author: "Justin Timberlake",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Don't Stop 'Til You Get Enough",
+            author: "Michael Jackson",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Wannabe",
+            author: "Spice Girls",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Wanna Dance with Somebody",
+            author: "Whitney Houston",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Billie Jean",
+            author: "Michael Jackson",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Dynamite",
+            author: "BTS",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Crazy in Love",
+            author: "Beyoncé ft. Jay-Z",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Get Lucky",
+            author: "Daft Punk ft. Pharrell Williams",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "We Found Love",
+            author: "Rihanna ft. Calvin Harris",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Hey Ya!",
+            author: "OutKast",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Wake Me Up",
+            author: "Avicii",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Livin' la Vida Loca",
+            author: "Ricky Martin",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Gotta Feeling",
+            author: "The Black Eyed Peas",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ],
+    g00s: [
+        {
+            name: "Oops!... I Did It Again",
+            author: "Britney Spears",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bye Bye Bye",
+            author: "*NSYNC",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Hips Don't Lie",
+            author: "Shakira ft. Wyclef Jean",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Beautiful",
+            author: "Christina Aguilera",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "It's My Life",
+            author: "Bon Jovi",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Complicated",
+            author: "Avril Lavigne",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Hot n Cold",
+            author: "Katy Perry",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Want It That Way",
+            author: "Backstreet Boys",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Crazy",
+            author: "Gnarls Barkley",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Irreplaceable",
+            author: "Beyoncé",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Since U Been Gone",
+            author: "Kelly Clarkson",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Hey Ya!",
+            author: "OutKast",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Just Dance",
+            author: "Lady Gaga ft. Colby O'Donis",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "The Middle",
+            author: "Jimmy Eat World",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I'm Yours",
+            author: "Jason Mraz",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+
+};
+const electro = {
+    workout: [
+        {
+            name: "Animals",
+            author: "Martin Garrix",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Tremor",
+            author: "Dimitri Vegas & Like Mike, Martin Garrix",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Turn Down for What",
+            author: "DJ Snake, Lil Jon",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Levels",
+            author: "Avicii",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Get Low",
+            author: "Dillon Francis, DJ Snake",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Rocking With The Best",
+            author: "Laidback Luke ft. Goodgrip",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "We Found Love",
+            author: "Calvin Harris ft. Rihanna",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Internet Friends",
+            author: "Knife Party",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bangarang",
+            author: "Skrillex ft. Sirah",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Work",
+            author: "Rihanna ft. Drake",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+    dance: [
+        {
+            name: "Wake Me Up",
+            author: "Avicii",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Don't You Worry Child",
+            author: "Swedish House Mafia ft. John Martin",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "This Is What You Came For",
+            author: "Calvin Harris ft. Rihanna",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Don't Stop the Party",
+            author: "Pitbull ft. TJR",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bad",
+            author: "David Guetta ft. Showtek, Vassy",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Titanium",
+            author: "David Guetta ft. Sia",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Firestone",
+            author: "Kygo ft. Conrad Sewell",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Wanna Dance with Somebody",
+            author: "Whitney Houston (Remix)",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Summer",
+            author: "Calvin Harris",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Hey Brother",
+            author: "Avicii",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+    hard: [
+        {
+            name: "The Way We See The World",
+            author: "Afrojack, Dimitri Vegas & Like Mike, NERVO",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Harder Better Faster Stronger",
+            author: "Daft Punk",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Jumper",
+            author: "Hardwell, W&W",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Stampede",
+            author: "Dimitri Vegas & Like Mike, DVBBS, Borgeous",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Hardstyle Disco",
+            author: "Mike Nero",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Animals",
+            author: "Martin Garrix",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Animals (Remix)",
+            author: "Martin Garrix",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Spaceman",
+            author: "Hardwell",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Dragonborn",
+            author: "Headhunterz",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Party Till We Die",
+            author: "MAKJ, Timmy Trumpet ft. Andrew W.K.",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+    Dubstep: [
+        {
+            name: "Scary Monsters and Nice Sprites",
+            author: "Skrillex",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bangarang",
+            author: "Skrillex ft. Sirah",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Internet Friends",
+            author: "Knife Party",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Cracks (Flux Pavilion Remix)",
+            author: "Freestylers ft. Belle Humble",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Bass Cannon",
+            author: "Flux Pavilion",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Promises",
+            author: "Nero",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Tetris",
+            author: "Doctor P",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Holdin' On",
+            author: "Flume",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Feel Good",
+            author: "Illenium, Gryffin ft. Daya",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Centipede",
+            author: "Knife Party",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+    trance: [
+        {
+            name: "Adagio for Strings",
+            author: "Tiësto",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Silence (Tiësto Remix)",
+            author: "Delerium ft. Sarah McLachlan",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Saltwater",
+            author: "Chicane",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Children",
+            author: "Robert Miles",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "For An Angel",
+            author: "Paul van Dyk",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Gouryella",
+            author: "Gouryella",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "In And Out Of Love",
+            author: "Armin van Buuren ft. Sharon den Adel",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Ayla",
+            author: "Ayla",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Strobe",
+            author: "Deadmau5",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Cafe Del Mar (Three 'N One Remix)",
+            author: "Energy 52",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+    deep: [
+        {
+            name: "Latch",
+            author: "Disclosure ft. Sam Smith",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Wake Me Up",
+            author: "Avicii ft. Aloe Blacc",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Losing It",
+            author: "Fisher",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Midnight City (Eric Prydz Private Remix)",
+            author: "M83",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Fade",
+            author: "Alan Walker",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Firestone",
+            author: "Kygo ft. Conrad Sewell",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Rather Be",
+            author: "Clean Bandit ft. Jess Glynne",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Show Me Love (Steve Angello & Laidback Luke Remix)",
+            author: "Robin S.",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Faded",
+            author: "ZHU",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Ocean Drive",
+            author: "Duke Dumont",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+    after_party: [
+        {
+            name: "Turn Down for What",
+            author: "DJ Snake, Lil Jon",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Party Rock Anthem",
+            author: "LMFAO ft. Lauren Bennett, GoonRock",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "I Gotta Feeling",
+            author: "The Black Eyed Peas",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Don't Stop the Party",
+            author: "Pitbull ft. TJR",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "We Found Love",
+            author: "Calvin Harris ft. Rihanna",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Timber",
+            author: "Pitbull ft. Kesha",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Shots",
+            author: "LMFAO ft. Lil Jon",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Sexy and I Know It",
+            author: "LMFAO",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Animals",
+            author: "Martin Garrix",
+            cover: "",
+            link: ["", "", ""]
+        },
+        {
+            name: "Get Low",
+            author: "Dillon Francis, DJ Snake",
+            cover: "",
+            link: ["", "", ""]
+        }
+    ]
+    ,
+};
+const rap = {
+   eminem: [
+        {
+          name: "Lose Yourself",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Stan",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Without Me",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "The Real Slim Shady",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Love The Way You Lie",
+          author: "Eminem (feat. Rihanna)",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Mockingbird",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Not Afraid",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Cleanin' Out My Closet",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Forgot About Dre",
+          author: "Eminem (feat. Dr. Dre)",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Rap God",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Sing For The Moment",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "My Name Is",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "The Way I Am",
+          author: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        }
+      ],
+      hip_hop :[
+        {
+          name: "Stronger",
+          author: "Kanye West",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Can't Hold Us",
+          author: "Macklemore & Ryan Lewis ft. Ray Dalton",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "POWER",
+          author: "Kanye West",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Jumpman",
+          author: "Drake & Future",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Till I Collapse",
+          author: "Eminem ft. Nate Dogg",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "All The Way Up",
+          author: "Fat Joe & Remy Ma ft. French Montana",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "HUMBLE.",
+          author: "Kendrick Lamar",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Started From the Bottom",
+          author: "Drake",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "No Limit",
+          author: "G-Eazy ft. A$AP Rocky, Cardi B",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Ante Up (Remix)",
+          author: "M.O.P. ft. Busta Rhymes, Remy Ma",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "All Gold Everything",
+          author: "Trinidad James",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Hypnotize",
+          author: "The Notorious B.I.G.",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Money Maker",
+          author: "Ludacris ft. Pharrell",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Izzo (H.O.V.A.)",
+          author: "Jay-Z",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Wild for the Night",
+          author: "A$AP Rocky ft. Skrillex",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Hot in Herre",
+          author: "Nelly",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Party Up (Up in Here)",
+          author: "DMX",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "I Don't Like",
+          author: "Chief Keef ft. Lil Reese",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Can't Tell Me Nothing",
+          author: "Kanye West",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Walk It Talk It",
+          author: "Migos ft. Drake",
+          cover: "",
+          link: ["", "", ""]
+        }
+      ],
+      workout:[
+        {
+          name: "Lose Yourself",
+          artist: "Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Can't Hold Us",
+          artist: "Macklemore & Ryan Lewis ft. Ray Dalton",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "SICKO MODE",
+          artist: "Travis Scott",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Till I Collapse",
+          artist: "Eminem ft. Nate Dogg",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "HUMBLE.",
+          artist: "Kendrick Lamar",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Power",
+          artist: "Kanye West",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "No Limit",
+          artist: "G-Eazy ft. A$AP Rocky, Cardi B",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Started From the Bottom",
+          artist: "Drake",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Ante Up",
+          artist: "M.O.P.",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Jumpman",
+          artist: "Drake & Future",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "All The Way Up",
+          artist: "Fat Joe & Remy Ma ft. French Montana",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "N****s in Paris",
+          artist: "Jay-Z & Kanye West",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Bad and Boujee",
+          artist: "Migos ft. Lil Uzi Vert",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "A Milli",
+          artist: "Lil Wayne",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Rockstar",
+          artist: "Post Malone ft. 21 Savage",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "DNA.",
+          artist: "Kendrick Lamar",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "I Don't Like",
+          artist: "Chief Keef ft. Lil Reese",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Suge",
+          artist: "DaBaby",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Mo Bamba",
+          artist: "Sheck Wes",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Savage",
+          artist: "Megan Thee Stallion",
+          cover: "",
+          link: ["", "", ""]
+        }
+      ],
+      g90s:[
+        {
+          name: "California Love",
+          artist: "2Pac ft. Dr. Dre",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Gin and Juice",
+          artist: "Snoop Doggy Dogg",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Nuthin' But a 'G' Thang",
+          artist: "Dr. Dre ft. Snoop Doggy Dogg",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Juicy",
+          artist: "The Notorious B.I.G.",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Regulate",
+          artist: "Warren G ft. Nate Dogg",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Keep Their Heads Ringin'",
+          artist: "Dr. Dre",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Hypnotize",
+          artist: "The Notorious B.I.G.",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Forgot About Dre",
+          artist: "Dr. Dre ft. Eminem",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "I Get Around",
+          artist: "2Pac",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "It Was a Good Day",
+          artist: "Ice Cube",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Mo Money Mo Problems",
+          artist: "The Notorious B.I.G. ft. Puff Daddy & Mase",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Gangsta's Paradise",
+          artist: "Coolio ft. L.V.",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Jump Around",
+          artist: "House of Pain",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Shook Ones Part II",
+          artist: "Mobb Deep",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "C.R.E.A.M.",
+          artist: "Wu-Tang Clan",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "The Message",
+          artist: "Nas",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Still D.R.E.",
+          artist: "Dr. Dre ft. Snoop Dogg",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "The World Is Yours",
+          artist: "Nas",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Ms. Jackson",
+          artist: "OutKast",
+          cover: "",
+          link: ["", "", ""]
+        },
+        {
+          name: "Ready or Not",
+          artist: "The Fugees",
+          cover: "",
+          link: ["", "", ""]
+        }
+      ],
+      gold:[
+        {
+          name: "Rapper's Delight",
+          artist: "The Sugarhill Gang",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "The Message",
+          artist: "Grandmaster Flash and the Furious Five",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Walk This Way",
+          artist: "Run-DMC ft. Aerosmith",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "It's Like That",
+          artist: "Run-DMC",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Fight the Power",
+          artist: "Public Enemy",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Express Yourself",
+          artist: "N.W.A.",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Parents Just Don't Understand",
+          artist: "DJ Jazzy Jeff & The Fresh Prince",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Children's Story",
+          artist: "Slick Rick",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Paid in Full",
+          artist: "Eric B. & Rakim",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Straight Outta Compton",
+          artist: "N.W.A.",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "The Breaks",
+          artist: "Kurtis Blow",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "I Can't Live Without My Radio",
+          artist: "LL Cool J",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "I Ain't No Joke",
+          artist: "Eric B. & Rakim",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "La Di Da Di",
+          artist: "Doug E. Fresh & Slick Rick",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "My Adidas",
+          artist: "Run-DMC",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Nuthin' But a 'G' Thang",
+          artist: "Dr. Dre ft. Snoop Doggy Dogg",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Mama Said Knock You Out",
+          artist: "LL Cool J",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Rock the Bells",
+          artist: "LL Cool J",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Planet Rock",
+          artist: "Afrika Bambaataa & The Soulsonic Force",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Can't Truss It",
+          artist: "Public Enemy",
+          cover: "",
+          links: ["", "", ""]
+        }
+      ],
+      drake:[
+        {
+          name: "God's Plan",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Hotline Bling",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "In My Feelings",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "One Dance",
+          artist: "Drake ft. WizKid, Kyla",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Nice For What",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Started From the Bottom",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Controlla",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Passionfruit",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Nonstop",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Hold On, We're Going Home",
+          artist: "Drake ft. Majid Jordan",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Headlines",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Marvins Room",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Fake Love",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Take Care",
+          artist: "Drake ft. Rihanna",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Too Good",
+          artist: "Drake ft. Rihanna",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Energy",
+          artist: "Drake",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Chicago Freestyle",
+          artist: "Drake ft. Giveon",
+          cover: "",
+          links: ["", "", ""]
+        },
+        {
+          name: "Money In The Grave",
+          artist: "Drake ft. Rick Ross",
+          cover: "",
+          links: ["", "", ""]
+        }
+      ],
+
+};
 
 export { rock, pop, electro, rap };
