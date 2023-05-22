@@ -1,0 +1,45 @@
+.card_container{
+    width: 300px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    overflow: hidden;
+} 
+
+.card_img{
+    grid-column: 1;
+    width: 50px;
+    height: 50px;
+}
+.card_text{
+    width: 100%;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card_name{
+    font-weight: 700;
+    font-size: 16px !important;
+    
+    
+}
+.card_author{
+    font-weight: 400;
+    font-size: 14px !important;
+    
+}
+.popover{
+    margin: 5px;
+    padding: 5px;
+    background: rgba($color: #000000, $alpha: .5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.popover a {
+    display: flex;
+    align-items: center;
+}
