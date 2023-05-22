@@ -54,7 +54,7 @@ export default function Rock() {
                 <div className={styles.dropdown_content}>
                   <ol className={styles.list_item_music}>
                     {
-                      Array.from({ length: 25 }).map((_, i) => (
+                      Array.from({ length: rock.g80s.length  }).map((_, i) => (
                         <li key={i} className={styles.list_item_songs}>
                           <Card name={rock.g80s[i].name} author={rock.g80s[i].author} cover={rock.g80s[i].cover} link={rock.g80s[i].link} key={`item_rock_80s_${i}`} />
                         </li>
