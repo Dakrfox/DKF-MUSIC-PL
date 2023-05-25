@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { useState } from 'react';
 import { rap } from 'data.mjs';
 import Card from '@components/card';
+import Footer from '@components/Footer';
 
 export default function Rap() {
   const router = useRouter();
@@ -34,6 +35,7 @@ export default function Rap() {
   const [showMenu5, setShowMenu5] = useState(false);
   const [showMenu6, setShowMenu6] = useState(false);
   return (
+    <>
     <div className={styles.playlist_container}>
       <div className={styles.title}>
         <Image className={styles.image} src={play_back} width={50} height={50} onClick={handleClickBack} />
@@ -143,5 +145,7 @@ export default function Rap() {
         </ul>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }

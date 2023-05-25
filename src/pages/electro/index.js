@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import Card from '@components/card';
 import { electro } from 'data.mjs';
+import Footer from '@components/Footer';
 
 export default function Electro() {
   const router = useRouter();
@@ -35,6 +36,7 @@ export default function Electro() {
   const [showMenu6, setShowMenu6] = useState(false);
   const [showMenu7, setShowMenu7] = useState(false);
   return (
+    <>
     <div className={styles.playlist_container}>
       <div className={styles.title}>
         <Image
@@ -214,5 +216,8 @@ export default function Electro() {
         </ul>
       </div>
     </div>
+    <Footer/>
+    
+    </>
   );
 }

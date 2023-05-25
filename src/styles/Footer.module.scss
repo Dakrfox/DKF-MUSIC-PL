@@ -8,3 +8,18 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+.footer a,
+.footer p{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.social_media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.instagram{
+    margin-left: 10px;
+    margin-right: 10px;
+}

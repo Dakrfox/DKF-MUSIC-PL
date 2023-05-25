@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { useState } from 'react';
 import { pop } from 'data.mjs';
 import Card from '@components/card';
+import Footer from '@components/Footer';
 
 
 export default function Pop() {
@@ -37,6 +38,7 @@ export default function Pop() {
 
 
   return (
+    <>
     <div className={styles.playlist_container}>
       <div className={styles.title}>
       <Image className={styles.image} src={play_back} width={50} height={50} onClick={handleClickBack}/>
@@ -152,6 +154,9 @@ export default function Pop() {
             </li>
         </ul>
       </div>
+      
     </div>
+    <Footer/>
+    </>
   );
 }
