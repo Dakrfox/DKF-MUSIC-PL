@@ -18,7 +18,7 @@ export default function Card({ name, author, cover, link }) {
   const handleMouseLeave = () => {
     setTimeout(() => {
         setIsHovered(false);
-    },1700)
+    },2000)
     
   };
   return (
