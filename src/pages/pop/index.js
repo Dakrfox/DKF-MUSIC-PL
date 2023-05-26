@@ -36,7 +36,7 @@ export default function Pop() {
   const [showMenu5, setShowMenu5] = useState(false);
   const [showMenu6, setShowMenu6] = useState(false);
 
-
+  console.log(pop.taylor_swift);
   return (
     <>
     <div className={styles.playlist_container}>

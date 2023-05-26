@@ -1075,481 +1075,799 @@ const rock = {
 };
 
 const pop = {
-    taylor_swift: [],
+    taylor_swift: [
+        {
+            name: "Out of the Woods",
+            album: "1989",
+            cover: "https://lh3.googleusercontent.com/-jaWr9K7U0bJoqMv50tihlvf1QXe_y-dmvw_z_40gA9bPj4PhfRPobOdQndQIoCxsFDWRyEoP0Rben8=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=FXj6yqKjTog", 
+            "https://open.spotify.com/track/5OndtwLGA9O6XHFcGm2H7r?autoplay=true", 
+            "https://music.apple.com/co/album/out-of-the-woods/1570582954?i=1570584329"]
+          },
+          {
+            name: "Wildest Dreams",
+            album: "1989",
+            cover: "https://lh3.googleusercontent.com/84HwoAMSxh8WaUR7iCc4TiXIyfGsbaiiipxDHDl3hnnpialoNXBkv15jtI6VB6smxMOR5Qs0MyW2Ojs=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=bhnaPBK9nOQ", 
+            "https://open.spotify.com/track/42AES8t6ni6vA3lSgWWcvc?autoplay=true", 
+            "https://music.apple.com/co/album/wildest-dreams-taylors-version/1586258768?i=1586258772"]
+          },
+          {
+            name: "Getaway Car",
+            album: "Reputation",
+            cover: "https://lh3.googleusercontent.com/RuKPkn6LLmXNOUcyRqh0zQbMWTpZDhHnkxHEZHrv6J8AbxLwemm9F0xaPpHX51WB_Xlj00My9vpZ_zRh=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=FhPLQVlUiNQ", 
+            "https://open.spotify.com/track/0VE4kBnHJUgtMf0dy6DRmW?autoplay=true", 
+            "https://music.apple.com/co/album/getaway-car/1445765846?i=1445766237"]
+          },
+          {
+            name: "Cornelia Street",
+            album: "Lover",
+            cover: "https://lh3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=bqJ9I-3MG1g", 
+            "https://open.spotify.com/track/12M5uqx0ZuwkpLp5rJim1a?autoplay=true", 
+            "https://music.apple.com/co/album/cornelia-street/1468058165?i=1468058184"]
+          },
+          {
+            name: "Soon You'll Get Better (feat. The Chicks)",
+            album: "Lover",
+            cover: "https://lh3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=z64GAXlF_dg", 
+            "https://open.spotify.com/track/4AYtqFyFbX0Xkc2wtcygTr?autoplay=true", 
+            "https://music.apple.com/co/album/soon-youll-get-better-feat-the-chicks/1468058165?i=1468058699"]
+          },
+          {
+            name: "My Tears Ricochet",
+            album: "Folklore",
+            cover: "https://lh3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=CsiVvkzCdSI", 
+            "https://open.spotify.com/track/1MgV7FIyNxIG7WzMRJV5HC?autoplay=true", 
+            "https://music.apple.com/co/album/my-tears-ricochet-the-long-pond-studio-sessions/1541904688?i=1541905079"]
+          },
+          {
+            name: "This Is Me Trying",
+            album: "Folklore",
+            cover: "https://lh3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tA2t1lFL3V8", 
+            "https://open.spotify.com/track/7cm50Lw03k6VvRauJtkyTj?autoplay=true", 
+            "https://music.apple.com/co/album/this-is-me-trying-the-long-pond-studio-sessions/1541905871?i=1541907064"]
+          },
+          {
+            name: "Champagne Problems",
+            album: "Evermore",
+            cover: "https://lh3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=3lB7Oh076-8", 
+            "https://open.spotify.com/track/6rap8NpGq8LDcVaJWkKFPn?autoplay=true", 
+            "https://music.apple.com/co/album/champagne-problems/1544268281?i=1544268301"]
+          },
+          {
+            name: "Coney Island (feat. The National)",
+            album: "Evermore",
+            cover: "https://lh3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=XtrUoXy0j7g", 
+            "https://open.spotify.com/track/3k7ne7VmH43ZPWxPdvPUgR?autoplay=true", 
+            "https://music.apple.com/co/album/coney-island-feat-the-national/1548507056?i=1548507569"]
+          },
+          {
+            name: "Ivy",
+            album: "Evermore",
+            cover: "https://lh3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=vYot4h3xgIg", 
+            "https://open.spotify.com/track/19CSr8rwW05VJL2F91KFNK?autoplay=true", 
+            "https://music.apple.com/co/album/ivy/1547315522?i=1547315995"]
+          },
+          {
+            name: "Marjorie",
+            album: "Evermore",
+            cover: "https://lh3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=NVbdhwUgwmQ", 
+            "https://open.spotify.com/track/12ntTeqEeTg7GAVpe8Mhpl?autoplay=true", 
+            "https://music.apple.com/co/album/marjorie/1544275966?i=1544276492"]
+          },
+          {
+            name: "Tolerate It",
+            album: "Evermore",
+            cover: "https://lh3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=cOWp6UVzBGs", 
+            "https://open.spotify.com/track/0PurA4JVJ8YQgSVopY8fn6?autoplay=true", 
+            "https://music.apple.com/co/album/tolerate-it/1548507056?i=1548507555"]
+          },
+          {
+            name: "Closure",
+            album: "Evermore",
+            cover: "https://lh3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=ooK9GNSt1b8", 
+            "https://open.spotify.com/track/35rdVq36LMHQX0Suw9a6tK?autoplay=true", 
+            "https://music.apple.com/co/album/closure/1547315522?i=1547316002"]
+          },
+          {
+            name: "Bye Bye Baby",
+            album: "Fearless (Taylor's Version) (From The Vault)",
+            cover: "https://lh3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=WC2C0zutCt4", 
+            "https://open.spotify.com/track/4qUijfYU8EoIWiY6oSyrgT?autoplay=true", 
+            "https://music.apple.com/co/album/bye-bye-baby-taylors-version-from-the-vault/1568159069?i=1568159243"]
+          },
+          {
+            name: "All Too Well (10 Minute Version)",
+            album: "Red (Taylor's Version) (From The Vault)",
+            cover: "https://lh3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=aPnqx56V8-0", 
+            "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi?autoplay=true", 
+            "https://music.apple.com/co/album/all-too-well-sad-girl-autumn-version-recorded-at-long/1596391573?i=1596391575"]
+          },
+          {
+            name: "Sad Beautiful Tragic",
+            album: "Red (Taylor's Version)",
+            cover: "https://lh3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=iKTSubwwq8Y", 
+            "https://open.spotify.com/track/73qMN9bXy7MSPwwGfH3wQr?autoplay=true", 
+            "https://music.apple.com/co/album/sad-beautiful-tragic-taylors-version/1595423133?i=1595423268"]
+          },
+          {
+            name: "State of Grace",
+            album: "Red (Taylor's Version)",
+            cover: "https://lh3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=gr4cqcqnAN0", 
+            "https://open.spotify.com/track/6lzc0Al0zfZOIFsFvBS1ki?autoplay=true", 
+            "https://music.apple.com/co/album/state-of-grace-acoustic-version-taylors-version/1595423133?i=1595423276"]
+          },
+          {
+            name: "You're on Your Own Kid",
+            album: "Midnights (3 AM Edition)",
+            cover: "https://lh3.googleusercontent.com/omCs21jqwK4Ss_VZxPFKwQP5z0UY0vi_8gXu4XNxHKDgE-GHYHWkIw80XR1uzFgdyhM3PvVUZeZ8iAfF=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=fKgoo_KT6aM", 
+            "https://open.spotify.com/track/4D7BCuvgdJlYvlX5WlN54t?autoplay=true", 
+            "https://music.apple.com/co/album/youre-on-your-own-kid/1651516410?i=1651516420"]
+          },
+          {
+            name: "Anti-Hero",
+            album: "Midnights (3 AM Edition)",
+            cover: "https://lh3.googleusercontent.com/omCs21jqwK4Ss_VZxPFKwQP5z0UY0vi_8gXu4XNxHKDgE-GHYHWkIw80XR1uzFgdyhM3PvVUZeZ8iAfF=w544-h544-l90-rj",
+            link: ["https://lh3.googleusercontent.com/omCs21jqwK4Ss_VZxPFKwQP5z0UY0vi_8gXu4XNxHKDgE-GHYHWkIw80XR1uzFgdyhM3PvVUZeZ8iAfF=w544-h544-l90-rj", 
+            "https://open.spotify.com/track/4XiypEn8iKbeP1TbTqdfk5?autoplay=true", 
+            "https://music.apple.com/co/album/anti-hero-feat-bleachers/1654041857?i=1654041869"]
+          },
+          {
+            name: "Labyrinth",
+            album: "Midnights (3 AM Edition)",
+            cover: "https://lh3.googleusercontent.com/omCs21jqwK4Ss_VZxPFKwQP5z0UY0vi_8gXu4XNxHKDgE-GHYHWkIw80XR1uzFgdyhM3PvVUZeZ8iAfF=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=PCiVzWLxDSk", 
+            "https://open.spotify.com/track/0A1JLUlkZkp2EFrosoNQi0?autoplay=true", 
+            "https://music.apple.com/co/album/labyrinth/1651516410?i=1651516847"]
+          }
+    ],
     kpop: [
         {
             name: "Gangnam Style",
             author: "PSY",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/zCv7rmhnyBrEBtY_ULN4G1GHLNMe3V12h9oBODXaoIkDsuEfCYZLMptxqymvjk1rx3IdBafVsPNnOHg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=4AgDYTuZWOw", 
+            "https://open.spotify.com/track/1rwbFW8ZLkZ0ylzsT9Qgdc?autoplay=true", 
+            "https://music.apple.com/co/album/gangnam-style-feat-2-chainz-tyga-diplo-remix/1445173531?i=1445173535"]
         },
         {
             name: "DNA",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/636QTqhgxp1clPZVNJCxlb7sAspI2me8z7_Q8W5yqPrrPld_54nOuUHRilc0m12gX3vgbTHoQQlBCd8f=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=IfemyZEhfpY", 
+            "https://open.spotify.com/track/3uRLwBjI2TahxslcMTvpFs?autoplay=true", 
+            "https://music.apple.com/co/album/dna-from-bts-%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8/1328642714?i=1328642718"]
         },
         {
             name: "Ddu-Du Ddu-Du",
             author: "BLACKPINK",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/99KTB7qNOoQ4vmGh9HrHb01iwjn2RgigV30O0j319AG3lGC-1rTLWJy8v9G49Od37gu13UBd8DnzEfq_=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=IPzouyj7FLA", 
+            "https://open.spotify.com/track/4sz6sircK4Jn2SZSHgd96h?autoplay=true", 
+            "https://music.apple.com/co/album/ddu-du-ddu-du-jp-ver/1413680648?i=1413681824"]
         },
         {
             name: "Boy With Luv",
             author: "BTS ft. Halsey",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/scwgiU2f7EdDjJyOxihHtd1_us8DrEOlW0zshTjMCGL4SRCyO-VTOHrgTc4mWi3KsNU0TE-R9HSSEkpQ-w=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Q-erYa8cwnc", 
+            "https://open.spotify.com/track/4a9tbd947vo9K8Vti9JwcI?autoplay=true", 
+            "https://music.apple.com/co/album/boy-with-luv-japanese-version/1469320477?i=1469320483"]
         },
         {
             name: "Kill This Love",
             author: "BLACKPINK",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/a4HLoL-xV0NngaNLLlJ0NjWeHeiAmHv2CF-HmE8AWPuoTc60cwzfCFaE5e9lNM2aYCFd6BmXUMfJj8o=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=2S24-y0Ij3Y", 
+            "https://open.spotify.com/track/6hvczQ05jc1yGlp9zhb95V?autoplay=true", 
+            "https://music.apple.com/co/album/kill-this-love-japan-version/1482719359?i=1482719548"]
         },
         {
             name: "Fancy",
             author: "TWICE",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/yStgp0sdn6Cg8EQQQU_Ph4LkvhSFLhOvzWPNgwG9Fkc4XnzsFKTWT9-Zjdr9Tl4OrVjYfmSX3BpbYVef=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=j4OrZV_GAsI", 
+            "https://open.spotify.com/track/4pZA1GWGfG4JoZ0rbb8yG2?autoplay=true", 
+            "https://music.apple.com/co/album/fancy/1555390183?i=1555390187"]
         },
         {
             name: "Love Scenario",
             author: "iKON",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/8J2SExQcgcK6emYZzhCFrsLght5KDsHpIKuVhBHIR7cKKCBqOXeGjmBq6zM5AIPlkNlpOIGyvgid-uo=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=OmEPFmyKO74", 
+            "https://open.spotify.com/track/6xdejmWFYGUTIiw3Nz4NbG?autoplay=true", 
+            "https://music.apple.com/co/album/love-scenario-jp-ver/1453229538?i=1453229612"]
         },
         {
             name: "MIC Drop",
             author: "BTS ft. Steve Aoki",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/-dnQo6KIRWKvUD2L_uLuxYQ-YJfpmdOfuQ77tFBdoNM_1_6N_Wagm_aJMRuIOdXxCqg0wA7hAVuI0M9A=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=zz1MkneRm6A", 
+            "https://open.spotify.com/track/01380RE6UfsPSdiUIwrCoH?autoplay=true", 
+            "https://music.apple.com/co/album/mic-drop-feat-desiigner-steve-aoki-remix/1597018789?i=1597018989"]
         },
         {
             name: "Blood Sweat & Tears",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/Z3y98RUBDYtcVu8pHonG_JNDjJvtfwrl2eEmLHPBWE9I34WD5cG6LQIxRmCre_lLi4rPV3H57ovLfC8P0Q=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tuEZ_8HdnwQ", 
+            "https://open.spotify.com/track/4lsn7TSeTBVqeBtlZQnQRw?autoplay=true", 
+            "https://music.apple.com/co/album/blood-sweat-tears-japanese-version/1445297310?i=1445297312"]
         },
         {
             name: "Fake Love",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/2mPha-esvrCZDr3FTM__V2L1KUml5zeY-amtiYJSx5GafLGhw-9725mRA2NPprUXSse3dOuAphB2T4nzig=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=NT8ePWlgx_Y", 
+            "https://open.spotify.com/track/0or1eqTGoMoXRbxxoLm3WW?autoplay=true", 
+            "https://music.apple.com/co/album/fake-love-japanese-version/1440073194?i=1440073201"]
         },
         {
             name: "Whistle",
             author: "BLACKPINK",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/f2yP9sVcYj-_opQWJ0prOY5jbt_rBGHrpe9jPD1mxaEpI8ZL1SrkCpzbvS42DhyYNABMRqO7892F9_HL=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=x0-q6-PBpPU", 
+            "https://open.spotify.com/track/6NEoeBLQbOMw92qMeLfI40?autoplay=true", 
+            "https://music.apple.com/co/album/whistle-acoustic-ver/1263315668?i=1263315993"]
         },
         {
             name: "Not Today",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/fN9zhZCpqWpBjZZl-eDK3lVLacGagcgk4uyV__n-wOrAh4hxYl6HZD06Au07SX4KbQtYSHwaSdu6b5s7=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=mCtVrf2x5BQ", 
+            "https://open.spotify.com/track/7tHMnD6UuU9sNR1zlSJ6Lp?autoplay=true", 
+            "https://music.apple.com/co/album/not-today-japanese-version/1445297310?i=1445297316"]
         },
         {
             name: "Dope",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/fuqGDWP5Z-SF0oklWr2--NARs05HrFQ7fbB5BDA2J8RatMLY3sYdKj29kXBbyrkUsxT1zfehJ_CHE_8=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Gb-Pveb0mB8", 
+            "https://open.spotify.com/track/4o3Ao6wY5fbJR32fQKabfQ?autoplay=true", 
+            "https://music.apple.com/co/album/dope/1596533063?i=1596533336"]
         },
         {
             name: "I Need U",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/fuqGDWP5Z-SF0oklWr2--NARs05HrFQ7fbB5BDA2J8RatMLY3sYdKj29kXBbyrkUsxT1zfehJ_CHE_8=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=qPCniNKVZ9c", 
+            "https://open.spotify.com/track/6EWoLZ6n26bF3Cl9Hq3pqv?autoplay=true", 
+            "https://music.apple.com/co/album/i-need-u-urban-mix/1598661880?i=1598662277"]
         },
         {
             name: "Lovesick Girls",
             author: "BLACKPINK",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/ZKINUFCtfMUKB4CH4wJcQyHi6-bmuHz2exRBV6SORUd96KsC1jo2nrDImg2zlLnvHgJPGBxreYVjunGycg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=D8RZbI1jfQ0", 
+            "https://open.spotify.com/track/4Ws314Ylb27BVsvlZOy30C?autoplay=true", 
+            "https://music.apple.com/co/album/lovesick-girls/1533894050?i=1533894681"]
         },
         {
             name: "Spring Day",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/fN9zhZCpqWpBjZZl-eDK3lVLacGagcgk4uyV__n-wOrAh4hxYl6HZD06Au07SX4KbQtYSHwaSdu6b5s7=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=ZO1xdXOXarc", 
+            "https://open.spotify.com/track/2j1fFjWHCI9KJSwcuYAOyF?autoplay=true", 
+            "https://music.apple.com/co/album/spring-day-japanese-version/1570209078?i=1570209811"]
         },
         {
             name: "FIRE",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/8-Of73mafCmlu7VrNAgprMWDeYcnps4wKJhbeVwm1D05JbzQF0KX8R4HR2M3kxdzvQi994vJXBensM69=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=ZbWo60LyvXc", 
+            "https://open.spotify.com/track/0aE3V0zgSD2YwkEHW42gxG?autoplay=true", 
+            "https://music.apple.com/co/album/burning-up-fire/1598661880?i=1598662129"]
         },
         {
             name: "Likey",
             author: "TWICE",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/OjY8-5Aigvy4lAhq0hglQGjqdigy94ae4xSClmbrpsOcBgGlmnpoFoyQK-EsCEtZ6wnAZXYe05YQPfWX=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=5gZl0PYC2Ho", 
+            "https://open.spotify.com/track/4Eb5cLWxKQUoUQaKUYSRgI?autoplay=true", 
+            "https://music.apple.com/co/album/likey/1555405141?i=1555405145"]
         },
         {
             name: "As If It's Your Last",
             author: "BLACKPINK",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/FUz45S6Nmeec1qEpMfcCN_9PvjdLIKffPsi5n7A6KB3rz0eXIRtxd14On1Bgn65T30c_u7LnzkqINAIW=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=9MbXeqCbS4Q", 
+            "https://open.spotify.com/track/4ZxOuNHhpyOj4gv52MtQpT?autoplay=true", 
+            "https://music.apple.com/co/album/as-if-its-your-last/1251249729?i=1251249891"]
         },
         {
             name: "Energetic",
             author: "Wanna One",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/OBKdY7o89xvm--anKF2CHH_yKgImOSNjWhTpxaGaXuN4El3qxQccdn1gleeSJhDhaI4AjBjSduqG2no=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=-Oif1zcHV-4", 
+            "https://open.spotify.com/track/3NkkcnnKrNHv4AiGaPdD76?autoplay=true", 
+            "https://music.apple.com/co/album/energetic-prequel-remix/1569744251?i=1569744267"]
         },
         {
             name: "Red Flavor",
             author: "Red Velvet",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/u_zPmT2TOP9YqMp6tcl70OvdMLHxknhp3Y2I11ZQkmPPTfiOBVxhtufFpli05_95okdbhpWKdv-wHHEN=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=BLavT7w4R9I", 
+            "https://open.spotify.com/track/7nKQ5WAcjnG48knyLuo8gO?autoplay=true", 
+            "https://music.apple.com/co/album/red-flavor/1256503505?i=1256504651"]
         },
         {
             name: "Cheer Up",
             author: "TWICE",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/cLnmZ8ZAIgUaMSKnqqQUIqJukZhNLoRQIFIkWFTt5tdOsGhPI1DhflnFn4A9bjOE2cU2OxsWK8Y0NMcB=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=prWVZFgZ3Zc", 
+            "https://open.spotify.com/track/44hrbxek4FUjgtN37TpEUQ?autoplay=true", 
+            "https://music.apple.com/co/album/cheer-up-japanese-ver/1242966871?i=1242967504"]
         },
         {
             name: "Monster",
             author: "EXO",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/UWaG0-p-cG1BAJCZ79z73XHjRk4avPJPKdf-yOYzKmNkA0mcCd64HZLW-4vvK4IhxkrhV14__zjpIN8x=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=KJevaDSz7Nc", 
+            "https://open.spotify.com/track/7GbUWl6qLW1gdngbEV2WDJ?autoplay=true", 
+            "https://music.apple.com/co/album/monster-chinese-version/1121473062?i=1121473241"]
         },
         {
             name: "Icy",
             author: "ITZY",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/JIC_5NBHuAZOX-0rUW5lzxZScpaFygUK7i-aGiaSBEUTmFoaYAurgp_2PlX6So5hr41pyqHuI26n1do0=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=ZpD59tu5_Rk", 
+            "https://open.spotify.com/track/2vdkN2NSQ5mxqNGg7sJUxs?autoplay=true", 
+            "https://music.apple.com/co/album/icy/1608253081?i=1608253085"]
         },
         {
             name: "Bboom Bboom",
             author: "MOMOLAND",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/NGiR0nP99-cWnbfmYmK6hoZnJ3_nI3cDhRApwgLGNDMWAyqCGx9T9LNBLCa9i-sr_YRANDOis3wp3bE=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=NLkfJbvMDAA", 
+            "https://open.spotify.com/track/3BPoSr2pO34Aan6alFfVto?autoplay=true", 
+            "https://music.apple.com/co/album/bboom-bboom/1330921813?i=1330921814"]
         },
         {
             name: "Love Shot",
             author: "EXO",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/5AaLv8txOBJFtWmUeF-Li4ZNBv1JX2DuHpi4G7CTlKlDJbs7vw8QIcga7veVJnU-wCKJd6Q9v491kVeeuw=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=KmRqHwJrTKQ", 
+            "https://open.spotify.com/track/0yB4jrSwN0bFtFRDR5vyMj?autoplay=true", 
+            "https://music.apple.com/co/album/love-shot/1446231540?i=1446231541"]
         },
         {
             name: "Bang Bang Bang",
             author: "BIGBANG",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/i9OobQopwUxOd9HTAvCKl0KKK1bDydRtUMli5OvuL3QhuG8QBkK_hp0fJ0pWAyEWGvc6GytqDtQrCB0c=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=r_6ekIR_OQo", 
+            "https://open.spotify.com/track/3dI59jLoFMjMAyUAyRZnkE?autoplay=true", 
+            "https://music.apple.com/co/album/bang-bang-bang-encore-live/1317315555?i=1317315576"]
         },
         {
             name: "TT",
             author: "TWICE",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/aUQLzHTx0thW1Hyg17UqzUCvWvsOH29vrF25ap3mofkTn6H2IBnsyFcnhYr5iCtJtFMUu5gb73aOZkI3=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=___h2czNhe0", 
+            "https://open.spotify.com/track/60jFaQV7Z4boGC4ob5B5c6?autoplay=true", 
+            "https://music.apple.com/co/album/tt/1555401119?i=1555401122"]
         },
         {
             name: "Fiesta",
             author: "IZ*ONE",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/GYsOVggS6_ppVI6fYFoycdUfN1LKeSsslXOb_6b8HfBmvJARhHPGHAGt7dOV7o18qOIhz_zJBv0kvXK8=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tKIERbJ-R-M", 
+            "https://open.spotify.com/track/6Ihdn6wW2UBhfTKWbP29KA?autoplay=true", 
+            "https://music.apple.com/co/album/fiesta-japanese-version/1533391521?i=1533391534"]
         },
         {
             name: "Save ME",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/8-Of73mafCmlu7VrNAgprMWDeYcnps4wKJhbeVwm1D05JbzQF0KX8R4HR2M3kxdzvQi994vJXBensM69=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=384_y4CS9hI", 
+            "https://open.spotify.com/track/7bxGcILuAjkZzaveU28ZJS?autoplay=true", 
+            "https://music.apple.com/co/album/save-me/1598661880?i=1598662137"]
         },
         {
             name: "Mic Drop (Steve Aoki Remix)",
             author: "BTS ft. Steve Aoki",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/-dnQo6KIRWKvUD2L_uLuxYQ-YJfpmdOfuQ77tFBdoNM_1_6N_Wagm_aJMRuIOdXxCqg0wA7hAVuI0M9A=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=zz1MkneRm6A", 
+            "https://open.spotify.com/track/01380RE6UfsPSdiUIwrCoH?autoplay=true", 
+            "https://music.apple.com/co/album/mic-drop-feat-desiigner-steve-aoki-remix/1597018789?i=1597018989"]
         },
         {
             name: "Dynamite",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/n1-pqG9jYCHqxiSSq7DORgk10PCS7vyMX5VX0o0HoPwEEIZM5pamJAFIDOHqo7Hl27hJ9YvqTahya3Fg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=HaEYUJ2aRHs", 
+            "https://open.spotify.com/track/72IwoG8tqvIWV10IHjpNNA?autoplay=true", 
+            "https://music.apple.com/us/album/dynamite/1597024421?i=1597024424"]
         },
         {
             name: "Wannabe",
             author: "ITZY",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/VuyVvPoVWNoWsVwNEviga2n9faIIFvfI7OJNHZ8mYH8t6sEjSLFOdPB1TgKsWCbfgZXw_ZUAhUYW9LuF=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=xgiN9zNZCuM", 
+            "https://open.spotify.com/track/4pspYVQGFHLPEFgQPD1J7e?autoplay=true", 
+            "https://music.apple.com/co/album/wannabe/1608253207?i=1608253214"]
         }
     ],
     girls_power: [
         {
             name: "Bad Romance",
             author: "Lady Gaga",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/4CadHWB5z-vcV5ZcUJi8rvFPaAYhG8ci2_Ulr84UCEbqBXBm9tCVNyhO0UV__GlWsw2I00C8toP2HIyD=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=fiRjp6y6QvI", 
+            "https://open.spotify.com/track/0SiywuOBRcynK0uKGWdCnn?autoplay=true", 
+            "https://music.apple.com/co/album/bad-romance/1444893386?i=1444893703"]
         },
         {
             name: "Love Story",
             author: "Taylor Swift",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=e7yg0A-PCTI", 
+            "https://open.spotify.com/track/10zoz8WvZEEhcMgTIj84Nh?autoplay=true", 
+            "https://music.apple.com/co/album/love-story-taylors-version/1591121136?i=1591122596"]
         },
         {
             name: "Single Ladies (Put a Ring on It)",
             author: "Beyoncé",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/ZkeLV0pS4A8YML6r12R7PALbIFJDu7IEjCxbBLzFm61vTeWHgkpLyfTYV3NQ9rrkz2g7eZfD7IEQj6M=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=4z-bOdAdias", 
+            "https://open.spotify.com/track/5R9a4t5t5O0IsznsrKPVro?autoplay=true", 
+            "https://music.apple.com/co/album/single-ladies-put-a-ring-on-it-dave-aud%C3%A9-remix-club-version/303646947?i=303646952"]
         },
         {
             name: "Firework",
             author: "Katy Perry",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/UBAvsIklBW9AakyDHYtBXN9nZlDwaZnDEWf73D8d0a4KVl5evEt0hqvUOO0CYH84RSrptF8u8qFxu1ivag=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=M51-spaR4qk&feature=gws_kp_track", 
+            "https://open.spotify.com/track/4r6eNCsrZnQWJzzvFh4nlg?autoplay=true", 
+            "https://music.apple.com/co/album/firework/1625742668?i=1625742817"]
         },
         {
             name: "Halo",
             author: "Beyoncé",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/yGGqrPlyXtJ16Fwvs4q2PRXLuGVU7NolkeLCvrAEbX07akwX18x4KWBS0nbfHhLljsFA__mCV9iBcgc=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=VqQeT7wKqvs", 
+            "https://open.spotify.com/track/3ERa3mEeOnrh2Mc47qM6T1?autoplay=true", 
+            "https://music.apple.com/co/album/halo-live/399850850?i=399851179"]
         },
         {
             name: "Call Me Maybe",
             author: "Carly Rae Jepsen",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/74iPDM13qn-WhH5hMEmsO3A0mXvE5fAYYjNfO0rzRvA4DvjwoGoZN3S3fp8yJVAJB5PwQqUvldC9U8S_=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=dlObDivWgx8", 
+            "https://open.spotify.com/track/3TGRqZ0a2l1LRblBkJoaDx?autoplay=true", 
+            "https://music.apple.com/co/album/call-me-maybe/1444320073?i=1444320162"]
         },
         {
             name: "Blank Space",
             author: "Taylor Swift",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/ZLkMUVjCgfC5YDCc0aF6vpfQWOp3CMjIxUElYqLPR4i9dEkJv9u9bgaioKNgg8stkW1FgjEpbW1wts6g=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=dC9QIUKviJU", 
+            "https://open.spotify.com/track/3ulIErpIehDSLfmQmUax5g?autoplay=true", 
+            "https://music.apple.com/co/album/blank-space/1445881848?i=1445882174"]
         },
         {
             name: "Toxic",
             author: "Britney Spears",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/zUZID1mTJcFiTkT3o0NRgIbbBb0fLiYbgM-O-sC6ZgY0zGZoFnQxy0j32pV3Em8SJjC_H6y5lUSWaxKgYg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tVdr_JWmnsA", 
+            "https://open.spotify.com/track/717TY4sfgKQm4kFbYQIzgo?autoplay=true", 
+            "https://music.apple.com/co/album/toxic-lenny-bertoldo-mix-show-edit/264525379?i=264525408"]
         },
         {
             name: "Wannabe",
             author: "Spice Girls",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/84taMZvLhL9KGDAJFfMsNnUi3_ZQJPFd3DUS8OHjFy68miWUN46mY5qT9dABlR6klxgrNpM1ikXDU1zpvg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tscL_I2v7pU", 
+            "https://open.spotify.com/track/6x572SnKMzextaAiguqzX3?autoplay=true", 
+            "https://music.apple.com/co/album/wannabe-motiv-8-vocal-slam-mix/724475252?i=724475792"]
         },
         {
             name: "Genie in a Bottle",
             author: "Christina Aguilera",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/2ntXRwoKqKVWuuD6J5gSGq6WmObrhDhpy0qTfOzEYMrTKZyv3Qpum7VpJ80IsUrvoGS7aQx4kKnpiCY=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=yz4me7Vwr1w", 
+            "https://open.spotify.com/track/2dctdHLp19ZsCyUrhoOcC0?autoplay=true", 
+            "https://music.apple.com/co/album/genie-in-a-bottle-a-cappella/211513149?i=211513809"]
         },
         {
             name: "I Will Always Love You",
             author: "Whitney Houston",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/bVSR9Bpw-Qmk31KzWPekLJV750K0dAQQjjPoenS5P45EffsMQge5iSa3TqHvVanu7qq2gS2UOokbfDU=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tP0zj220CbQ", 
+            "https://open.spotify.com/track/4eHbdreAnSOrDDsFfc4Fpm?autoplay=true", 
+            "https://music.apple.com/co/album/i-will-always-love-you-remastered-2000/534166831?i=534166995"]
         },
         {
             name: "Crazy in Love",
             author: "Beyoncé ft. Jay-Z",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/wtLk6ExStO726BiiQLRkBLKB9JKGx5vQRLmogfOP3aAXWZEefN0aiCelvwqJ1qHJYEktmKyCHTX4PcrT=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=5BnF0_LksYI", 
+            "https://open.spotify.com/track/5IVuqXILoxVWvWEPm82Jxr?autoplay=true", 
+            "https://music.apple.com/co/album/crazy-in-love-live/1654763612?i=1654763617"]
         },
         {
             name: "I Wanna Dance with Somebody",
             author: "Whitney Houston",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/bu3-T2ZQxF8fLFpfq5mm6Bs5oeI5l2CNIe9UkoRQzNpd6wNjTTgu1FrUFZF9PbcZRrykJLeQlhhSdSxv=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=6xzN8Nt0Pok", 
+            "https://open.spotify.com/track/2tUBqZG2AbRi7Q0BIrVrEj?autoplay=true", 
+            "https://music.apple.com/co/album/i-wanna-dance-with-somebody-who-loves-me/840431884?i=840431935"]
         },
         {
             name: "Oops!... I Did It Again",
             author: "Britney Spears",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/bK2UAEhZ35AawBD5FDROyl_Qnw_F91Lw7PvDB878dj5ts3g3LZuux1W6jKKhvM7A65RLIrmZwVmLUgJ7fA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=wsHbHR3Os6U", 
+            "https://open.spotify.com/track/6naxalmIoLFWR0siv8dnQQ?autoplay=true", 
+            "https://music.apple.com/co/album/oops-i-did-it-again/267954486?i=267954487"]
         },
         {
             name: "Girls Just Want to Have Fun",
             author: "Cyndi Lauper",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/N-U7_cNgPu9DCTWNP9HfqFbtmw1nQzbeIgWq7swQMNgqmjvj1GvpKBf-Um8tu9k5iA8LXHgDtiIoLe-j=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=gvLMhpzYic0", 
+            "https://open.spotify.com/track/4y1LsJpmMti1PfRQV9AWWe?autoplay=true", 
+            "https://music.apple.com/co/album/hey-now-girls-just-want-to-have-fun/323058808?i=323058872"]
         }
     ],
     dance: [
         {
             name: "Uptown Funk",
             author: "Mark Ronson ft. Bruno Mars",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/-NFtUA6dAmZKAy88a0k88UQ4VrYGKORqYBDSzMKCkwLJy5hgfMk3CppWBP61g6PXmJ69Dm41UNFke9k=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tYvFa2ARD24", 
+            "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS?autoplay=true", 
+            "https://music.apple.com/us/album/uptown-funk-feat-bruno-mars-single/938032038"]
         },
         {
             name: "Dancing Queen",
             author: "ABBA",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/uwZJDAz4hZnM_CYZS3Lgcibm1UFShAVDQqqCN4wZytyZAbFPqk-bB4MvIahp4Egszu0ulGncj459bB0b=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=YkLLcIKhJ64", 
+            "https://open.spotify.com/track/5AwYZWi95UoLawZdIvI0ud?autoplay=true", 
+            "https://music.apple.com/co/album/dancing-queen/1422648512?i=1422648513"]
         },
         {
             name: "Can't Stop the Feeling!",
             author: "Justin Timberlake",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/HfJNSWOG-vhnfCTzB17othxHyeVN5Bo5pwnIsWyb-863XiKiOA-UXY0urwSNjc6IYgWBoynU7udgrw2E=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=6p3E7OMw52g", 
+            "https://open.spotify.com/track/02lVoGxmqwAVNoR6oCYDge?autoplay=true", 
+            "https://music.apple.com/co/album/cant-stop-the-feeling-original-song-from-dreamworks/1110121889?i=1110121977"]
         },
         {
             name: "Don't Stop 'Til You Get Enough",
             author: "Michael Jackson",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/VeDOfVySuk98NJ1dYfFWOKUnY72OW-oeZ9nYQPn-Pz0eu1aE3gw-EFZbUCHY4ABOQvhuVGgHRTBhU4s=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=n3qQtSRmHxo", 
+            "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ?autoplay=true", 
+            "https://music.apple.com/co/album/dont-stop-til-you-get-enough/186166282?i=186166292"]
         },
         {
             name: "Wannabe",
             author: "Spice Girls",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/84taMZvLhL9KGDAJFfMsNnUi3_ZQJPFd3DUS8OHjFy68miWUN46mY5qT9dABlR6klxgrNpM1ikXDU1zpvg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=tscL_I2v7pU", 
+            "https://open.spotify.com/track/6x572SnKMzextaAiguqzX3?autoplay=true", 
+            "https://music.apple.com/co/album/wannabe-motiv-8-vocal-slam-mix/724475252?i=724475792"]
         },
         {
             name: "I Wanna Dance with Somebody",
             author: "Whitney Houston",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/bu3-T2ZQxF8fLFpfq5mm6Bs5oeI5l2CNIe9UkoRQzNpd6wNjTTgu1FrUFZF9PbcZRrykJLeQlhhSdSxv=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=6xzN8Nt0Pok", 
+            "https://open.spotify.com/track/2tUBqZG2AbRi7Q0BIrVrEj?autoplay=true", 
+            "https://music.apple.com/co/album/i-wanna-dance-with-somebody-who-loves-me/840431884?i=840431935"]
+        
         },
         {
             name: "Billie Jean",
             author: "Michael Jackson",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/URvHCfI2iyGAlAwqqBFeaFhU9DeKk_iuX40OIIIj8Zp0wIT3BVsJ2JRMwLLbUB9EZS7t7oDlMrI2S3OvGA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Kr4EQDVETuA", 
+            "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5?autoplay=true", 
+            "https://music.apple.com/co/album/billie-jean-1981-home-demo/1641780996?i=1641781523"]
         },
         {
             name: "Dynamite",
             author: "BTS",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/n1-pqG9jYCHqxiSSq7DORgk10PCS7vyMX5VX0o0HoPwEEIZM5pamJAFIDOHqo7Hl27hJ9YvqTahya3Fg=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=HaEYUJ2aRHs", 
+            "https://open.spotify.com/track/72IwoG8tqvIWV10IHjpNNA?autoplay=true", 
+            "https://music.apple.com/us/album/dynamite/1597024421?i=1597024424"]
         },
         {
             name: "Crazy in Love",
             author: "Beyoncé ft. Jay-Z",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/wtLk6ExStO726BiiQLRkBLKB9JKGx5vQRLmogfOP3aAXWZEefN0aiCelvwqJ1qHJYEktmKyCHTX4PcrT=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=5BnF0_LksYI", 
+            "https://open.spotify.com/track/5IVuqXILoxVWvWEPm82Jxr?autoplay=true", 
+            "https://music.apple.com/co/album/crazy-in-love-live/1654763612?i=1654763617"]
         },
         {
             name: "Get Lucky",
             author: "Daft Punk ft. Pharrell Williams",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=4D7u5KF7SP8", 
+            "https://open.spotify.com/track/69kOkLUCkxIZYexIgSG8rq?autoplay=true", 
+            "https://music.apple.com/co/album/get-lucky-feat-pharrell-williams-nile-rodgers-radio-edit/1459540243?i=1459540658"]
         },
         {
             name: "We Found Love",
             author: "Rihanna ft. Calvin Harris",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/zmlRluJ_elAqb0QDneBX3cg8tG4DSTdE8g9W6WlkR57PikkQMSjoBayrtClLG4qPizXQsEnDNbA0VBPDBA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=n6N1_sxlBU8", 
+            "https://open.spotify.com/track/6qn9YLKt13AGvpq9jfO8py?autoplay=true", 
+            "https://music.apple.com/co/album/we-found-love-black-cards-remix/1445151199?i=1445151313"]
         },
         {
             name: "Hey Ya!",
             author: "OutKast",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/5VSkY0xRhjAISX70WozU12J_GBPx8xDhJI0yzlPW5fIBdzZd6TbbMoKtEwpu7nNjl59LhCTo32O-vHTs=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Jx_O6PHdWww", 
+            "https://open.spotify.com/track/0JFx4l1JZJ6XtMAtlCMiqF?autoplay=true", 
+            "https://music.apple.com/co/album/hey-ya-radio-mix/1536683956?i=1536684210"]
         },
         {
             name: "Wake Me Up",
             author: "Avicii",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/XincHWEjkXhpbavoQEHWRbTcVdvHsujjr7OAw-73KUCILFgjLdevPW8vkoaRMibnwkTtGWkEDyKbuNeK=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=2NiyrtYegso", 
+            "https://open.spotify.com/track/5ZhGHOZknQq3srSKgl6Fv0?autoplay=true", 
+            "https://music.apple.com/co/album/wake-me-up/1440872730?i=1440872929"]
         },
         {
             name: "Livin' la Vida Loca",
             author: "Ricky Martin",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/dL6AJ2gKjwzQFC3jYiV0D0eeRXjUYDLO6DJ-sI0-91moC4H2ETbfR1AtZic_i5o_h-jSsJsPoawAHf39=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=98B9ZHOlk2E", 
+            "https://open.spotify.com/track/5ULagYntqYXokTGKcjIl0m?autoplay=true", 
+            "https://music.apple.com/co/album/livin-la-vida-loca-spanish-version/192821565?i=192822739"]
         },
         {
             name: "I Gotta Feeling",
             author: "The Black Eyed Peas",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Wnn6M1nNiKQ", 
+            "https://open.spotify.com/track/7zm1mAZZWAQixiqG4Z3cxH?autoplay=true", 
+            "https://music.apple.com/co/album/i-gotta-feeling-zuper-blahq-remix/1445148262?i=1445148542"]
         }
     ],
     g00s: [
         {
             name: "Oops!... I Did It Again",
             author: "Britney Spears",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/bK2UAEhZ35AawBD5FDROyl_Qnw_F91Lw7PvDB878dj5ts3g3LZuux1W6jKKhvM7A65RLIrmZwVmLUgJ7fA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=wsHbHR3Os6U", 
+            "https://open.spotify.com/track/6naxalmIoLFWR0siv8dnQQ?autoplay=true", 
+            "https://music.apple.com/co/album/oops-i-did-it-again/267954486?i=267954487"]
         },
         {
             name: "Bye Bye Bye",
             author: "*NSYNC",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/WgTgMgIxFlodDnXO3GKEtmE4vWfjmOkGl8EKyzgfojv4PAE5ebA_EPf-yWrrqzRP1Ht6R38I7NWFAorz=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=fxHjlCBHuzA", 
+            "https://open.spotify.com/track/62bOmKYxYg7dhrC6gH9vFn?autoplay=true", 
+            "https://music.apple.com/co/album/bye-bye-bye/303171298?i=303171368"]
         },
         {
             name: "Hips Don't Lie",
             author: "Shakira ft. Wyclef Jean",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/omScHlhW_DAgbWR77BMmwFd_9ahSdaxP2d7MgmlSi_rqcvZhy_JjGW9YDV8soYdYeD-MBQdGmg0_4MwNxQ=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=gnUDvKEdke8", 
+            "https://open.spotify.com/track/3ZFTkvIE7kyPt6Nu3PEa7V?autoplay=true", 
+            "https://music.apple.com/co/album/hips-dont-lie-bamboo-feat-wyclef-jean/211761870?i=211761919"]
         },
         {
             name: "Beautiful",
             author: "Christina Aguilera",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/YZp-RP7Tsjt1d4iZaeXT0JV4jHafO6m9Z_RHAXtshpeBBRuK5cLA00hhxZP-C2utikqi8mUijvkdIaM=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=f1zLSpzCh9E", 
+            "https://open.spotify.com/track/3TCauNPqFiniaYHBvEVoHG?autoplay=true", 
+            "https://music.apple.com/co/album/beautiful-brother-brown-dub/211487299?i=211489609"]
         },
         {
             name: "It's My Life",
             author: "Bon Jovi",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/yoETujnSXc5KVgp6RvFQLkoaUknI0ygPW7o9T8Z9MedeBfM9q6nDY0t2I4LPn90MjQbXeHubqOcGKy4=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=bY3vXr7fm8k", 
+            "https://open.spotify.com/track/0v1XpBHnsbkCn7iJ9Ucr1l?autoplay=true", 
+            "https://music.apple.com/co/album/its-my-life/1440813234?i=1440813250"]
         },
         {
             name: "Complicated",
             author: "Avril Lavigne",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/MIAqmIn_RcVQpBbnF6iqTOJq0gHTiZXlcGQwEHjKrglyt0RWhCJ5USCeQtbM2JR2UTCQmpJK6QXWl5M=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=DTtb9rt1tnk", 
+            "https://open.spotify.com/track/5xEM5hIgJ1jjgcEBfpkt2F?autoplay=true", 
+            "https://music.apple.com/co/album/complicated/1626353802?i=1626353820"]
         },
         {
             name: "Hot n Cold",
             author: "Katy Perry",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/F3wzVN2nb1Z6zZRLKbkob0qWMUTAMwqltqSoP3ZKHkEBqnnBPtzyRQ8PtxR_IJGSwRFxCRyZN-n0lhlY=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=C-jAPrdc3PI", 
+            "https://open.spotify.com/track/2lsBnsFTfEcTiIm50wc5r1?autoplay=true", 
+            "https://music.apple.com/co/album/hot-n-cold-innerpartysystem-main/715807759?i=715809088"]
         },
         {
             name: "I Want It That Way",
             author: "Backstreet Boys",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/9_bcTlzFw20NRGy5R90FK3c0QEcDSfFMXpxp7mNqF6hk8g7EktfVMH_bnXItO-VCpcM5r0rwdzw_34mL9g=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=LwkrXybZ1uo", 
+            "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya?autoplay=true", 
+            "https://music.apple.com/co/album/i-want-it-that-way-reimagined/1462690401?i=1462690953"]
         },
         {
             name: "Crazy",
             author: "Gnarls Barkley",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=vBtvhPM2GHc", 
+            "https://open.spotify.com/track/7cD0hnifleCzpiXmA6AIdA?autoplay=true", 
+            "https://music.apple.com/co/album/crazy/135149731?i=135149703"]
         },
         {
             name: "Irreplaceable",
             author: "Beyoncé",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/L1nyzjoSwyDCZh5AyTwhCbHrqKrMy332B8X3BevNJHV9U0j2J1o5f7O9XUNQDJuUWzsJ-ey6Btq53eA=w544-h544-s-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Nw8LyN21OO8", 
+            "https://open.spotify.com/track/43aeyVCgHx1OMwwskoHw9E?autoplay=true", 
+            "https://music.apple.com/co/album/irreplaceable-fetauring-ghostface-killah/214734438?i=214734517"]
         },
         {
             name: "Since U Been Gone",
             author: "Kelly Clarkson",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/5ioYSrSOj3NywnOzZRh-OYunFQAtdoOeOiFISNSsQB7vuX8sVxLB2SQt-zEIYoEzCCzoRVfLlbgUkFFO=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=p0BiGek2bKA", 
+            "https://open.spotify.com/track/7a0GKk8DEkp8GUrW2OZ0P3?autoplay=true", 
+            "https://music.apple.com/co/album/since-u-been-gone-aol-live-version/259987936?i=259988101"]
         },
         {
             name: "Hey Ya!",
             author: "OutKast",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/5VSkY0xRhjAISX70WozU12J_GBPx8xDhJI0yzlPW5fIBdzZd6TbbMoKtEwpu7nNjl59LhCTo32O-vHTs=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Jx_O6PHdWww", 
+            "https://open.spotify.com/track/0JFx4l1JZJ6XtMAtlCMiqF?autoplay=true", 
+            "https://music.apple.com/co/album/hey-ya-radio-mix/1536683956?i=1536684210"]
         },
         {
             name: "Just Dance",
             author: "Lady Gaga ft. Colby O'Donis",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/L0931u-RfJqDBDYeyn8cq66QmdfvJ1NxwtHYvxMy9-P5YiO-wkzSzoRTGNlbUtgyhhas9ndiJWreM9Nv=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=ACNwMzZejQQ", 
+            "https://open.spotify.com/track/04aQmJ2Bvd7gb65Af9ZNzC?autoplay=true", 
+            "https://music.apple.com/co/album/just-dance-hccrs-bambossa-main-mix/1445006763?i=1445006769"]
         },
         {
             name: "The Middle",
             author: "Jimmy Eat World",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/EA0kIVK5zqlqeXBC9MjIGhaKS5EmEGEPAjuG4IsJ6BkolaMZBY3ZRGttCWf_OSle-mOhkn6jRLVT9ua4=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=rubpIfLPzvU", 
+            "https://open.spotify.com/track/1qXVKMFC0PuvDcd780skpv?autoplay=true", 
+            "https://music.apple.com/co/album/the-middle/1631408026?i=1631408269"]
         },
         {
             name: "I'm Yours",
             author: "Jason Mraz",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/8gxgwcGi_1ffGV_sW1QSptJK1gxgTyDwLhfQSt-gFNTYGR4Uyj5d10AtOdh01rdayq01gfiK7lGrzsE=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=A93OQy81TYs", 
+            "https://open.spotify.com/track/4UI1Ow2RwIOg0BLsJf2k9w?autoplay=true", 
+            "https://music.apple.com/co/album/im-yours-live-from-japan-feat-kimaguren/322027635?i=322027767"]
         }
     ]
 
@@ -1560,61 +1878,81 @@ const electro = {
             name: "Animals",
             author: "Martin Garrix",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Tremor",
             author: "Dimitri Vegas & Like Mike, Martin Garrix",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Turn Down for What",
             author: "DJ Snake, Lil Jon",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Levels",
             author: "Avicii",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Get Low",
             author: "Dillon Francis, DJ Snake",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Rocking With The Best",
             author: "Laidback Luke ft. Goodgrip",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "We Found Love",
-            author: "Calvin Harris ft. Rihanna",
-            cover: "",
-            link: ["", "", ""]
+            author: "Rihanna ft. Calvin Harris",
+            cover: "https://lh3.googleusercontent.com/zmlRluJ_elAqb0QDneBX3cg8tG4DSTdE8g9W6WlkR57PikkQMSjoBayrtClLG4qPizXQsEnDNbA0VBPDBA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=n6N1_sxlBU8", 
+            "https://open.spotify.com/track/6qn9YLKt13AGvpq9jfO8py?autoplay=true", 
+            "https://music.apple.com/co/album/we-found-love-black-cards-remix/1445151199?i=1445151313"]
         },
         {
             name: "Internet Friends",
             author: "Knife Party",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Bangarang",
             author: "Skrillex ft. Sirah",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Work",
             author: "Rihanna ft. Drake",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -1622,62 +1960,82 @@ const electro = {
         {
             name: "Wake Me Up",
             author: "Avicii",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/XincHWEjkXhpbavoQEHWRbTcVdvHsujjr7OAw-73KUCILFgjLdevPW8vkoaRMibnwkTtGWkEDyKbuNeK=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=2NiyrtYegso", 
+            "https://open.spotify.com/track/5ZhGHOZknQq3srSKgl6Fv0?autoplay=true", 
+            "https://music.apple.com/co/album/wake-me-up/1440872730?i=1440872929"]
         },
         {
             name: "Don't You Worry Child",
             author: "Swedish House Mafia ft. John Martin",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "This Is What You Came For",
             author: "Calvin Harris ft. Rihanna",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Don't Stop the Party",
             author: "Pitbull ft. TJR",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Bad",
             author: "David Guetta ft. Showtek, Vassy",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Titanium",
             author: "David Guetta ft. Sia",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Firestone",
             author: "Kygo ft. Conrad Sewell",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "I Wanna Dance with Somebody",
-            author: "Whitney Houston (Remix)",
-            cover: "",
-            link: ["", "", ""]
+            author: "Whitney Houston",
+            cover: "https://lh3.googleusercontent.com/bu3-T2ZQxF8fLFpfq5mm6Bs5oeI5l2CNIe9UkoRQzNpd6wNjTTgu1FrUFZF9PbcZRrykJLeQlhhSdSxv=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=6xzN8Nt0Pok", 
+            "https://open.spotify.com/track/2tUBqZG2AbRi7Q0BIrVrEj?autoplay=true", 
+            "https://music.apple.com/co/album/i-wanna-dance-with-somebody-who-loves-me/840431884?i=840431935"]
         },
         {
             name: "Summer",
             author: "Calvin Harris",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Hey Brother",
             author: "Avicii",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -1686,61 +2044,81 @@ const electro = {
             name: "The Way We See The World",
             author: "Afrojack, Dimitri Vegas & Like Mike, NERVO",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Harder Better Faster Stronger",
             author: "Daft Punk",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Jumper",
             author: "Hardwell, W&W",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Stampede",
             author: "Dimitri Vegas & Like Mike, DVBBS, Borgeous",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Hardstyle Disco",
             author: "Mike Nero",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Animals",
             author: "Martin Garrix",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Animals (Remix)",
             author: "Martin Garrix",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Spaceman",
             author: "Hardwell",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Dragonborn",
             author: "Headhunterz",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Party Till We Die",
             author: "MAKJ, Timmy Trumpet ft. Andrew W.K.",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -1749,61 +2127,81 @@ const electro = {
             name: "Scary Monsters and Nice Sprites",
             author: "Skrillex",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Bangarang",
             author: "Skrillex ft. Sirah",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Internet Friends",
             author: "Knife Party",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Cracks (Flux Pavilion Remix)",
             author: "Freestylers ft. Belle Humble",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Bass Cannon",
             author: "Flux Pavilion",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Promises",
             author: "Nero",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Tetris",
             author: "Doctor P",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Holdin' On",
             author: "Flume",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Feel Good",
             author: "Illenium, Gryffin ft. Daya",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Centipede",
             author: "Knife Party",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -1812,61 +2210,81 @@ const electro = {
             name: "Adagio for Strings",
             author: "Tiësto",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Silence (Tiësto Remix)",
             author: "Delerium ft. Sarah McLachlan",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Saltwater",
             author: "Chicane",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Children",
             author: "Robert Miles",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "For An Angel",
             author: "Paul van Dyk",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Gouryella",
             author: "Gouryella",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "In And Out Of Love",
             author: "Armin van Buuren ft. Sharon den Adel",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Ayla",
             author: "Ayla",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Strobe",
             author: "Deadmau5",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Cafe Del Mar (Three 'N One Remix)",
             author: "Energy 52",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -1875,61 +2293,81 @@ const electro = {
             name: "Latch",
             author: "Disclosure ft. Sam Smith",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Wake Me Up",
-            author: "Avicii ft. Aloe Blacc",
-            cover: "",
-            link: ["", "", ""]
+            author: "Avicii",
+            cover: "https://lh3.googleusercontent.com/XincHWEjkXhpbavoQEHWRbTcVdvHsujjr7OAw-73KUCILFgjLdevPW8vkoaRMibnwkTtGWkEDyKbuNeK=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=2NiyrtYegso", 
+            "https://open.spotify.com/track/5ZhGHOZknQq3srSKgl6Fv0?autoplay=true", 
+            "https://music.apple.com/co/album/wake-me-up/1440872730?i=1440872929"]
         },
         {
             name: "Losing It",
             author: "Fisher",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Midnight City (Eric Prydz Private Remix)",
             author: "M83",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Fade",
             author: "Alan Walker",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Firestone",
             author: "Kygo ft. Conrad Sewell",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Rather Be",
             author: "Clean Bandit ft. Jess Glynne",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Show Me Love (Steve Angello & Laidback Luke Remix)",
             author: "Robin S.",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Faded",
             author: "ZHU",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Ocean Drive",
             author: "Duke Dumont",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -1938,61 +2376,81 @@ const electro = {
             name: "Turn Down for What",
             author: "DJ Snake, Lil Jon",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Party Rock Anthem",
             author: "LMFAO ft. Lauren Bennett, GoonRock",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "I Gotta Feeling",
             author: "The Black Eyed Peas",
-            cover: "",
-            link: ["", "", ""]
+            cover: "https://lh3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=Wnn6M1nNiKQ", 
+            "https://open.spotify.com/track/7zm1mAZZWAQixiqG4Z3cxH?autoplay=true", 
+            "https://music.apple.com/co/album/i-gotta-feeling-zuper-blahq-remix/1445148262?i=1445148542"]
         },
         {
             name: "Don't Stop the Party",
             author: "Pitbull ft. TJR",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "We Found Love",
-            author: "Calvin Harris ft. Rihanna",
-            cover: "",
-            link: ["", "", ""]
+            author: "Rihanna ft. Calvin Harris",
+            cover: "https://lh3.googleusercontent.com/zmlRluJ_elAqb0QDneBX3cg8tG4DSTdE8g9W6WlkR57PikkQMSjoBayrtClLG4qPizXQsEnDNbA0VBPDBA=w544-h544-l90-rj",
+            link: ["https://music.youtube.com/watch?v=n6N1_sxlBU8", 
+            "https://open.spotify.com/track/6qn9YLKt13AGvpq9jfO8py?autoplay=true", 
+            "https://music.apple.com/co/album/we-found-love-black-cards-remix/1445151199?i=1445151313"]
         },
         {
             name: "Timber",
             author: "Pitbull ft. Kesha",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Shots",
             author: "LMFAO ft. Lil Jon",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Sexy and I Know It",
             author: "LMFAO",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Animals",
             author: "Martin Garrix",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         },
         {
             name: "Get Low",
             author: "Dillon Francis, DJ Snake",
             cover: "",
-            link: ["", "", ""]
+            link: ["", 
+            "", 
+            ""]
         }
     ]
     ,
@@ -2003,79 +2461,105 @@ const rap = {
           name: "Lose Yourself",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Stan",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Without Me",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "The Real Slim Shady",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Love The Way You Lie",
           author: "Eminem (feat. Rihanna)",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Mockingbird",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Not Afraid",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Cleanin' Out My Closet",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Forgot About Dre",
           author: "Eminem (feat. Dr. Dre)",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Rap God",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Sing For The Moment",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "My Name Is",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "The Way I Am",
           author: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         }
       ],
       hip_hop :[
@@ -2083,121 +2567,161 @@ const rap = {
           name: "Stronger",
           author: "Kanye West",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Can't Hold Us",
           author: "Macklemore & Ryan Lewis ft. Ray Dalton",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "POWER",
           author: "Kanye West",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Jumpman",
           author: "Drake & Future",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Till I Collapse",
           author: "Eminem ft. Nate Dogg",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "All The Way Up",
           author: "Fat Joe & Remy Ma ft. French Montana",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "HUMBLE.",
           author: "Kendrick Lamar",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Started From the Bottom",
           author: "Drake",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "No Limit",
           author: "G-Eazy ft. A$AP Rocky, Cardi B",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Ante Up (Remix)",
           author: "M.O.P. ft. Busta Rhymes, Remy Ma",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "All Gold Everything",
           author: "Trinidad James",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Hypnotize",
           author: "The Notorious B.I.G.",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Money Maker",
           author: "Ludacris ft. Pharrell",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Izzo (H.O.V.A.)",
           author: "Jay-Z",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Wild for the Night",
           author: "A$AP Rocky ft. Skrillex",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Hot in Herre",
           author: "Nelly",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Party Up (Up in Here)",
           author: "DMX",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "I Don't Like",
           author: "Chief Keef ft. Lil Reese",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Can't Tell Me Nothing",
           author: "Kanye West",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Walk It Talk It",
           author: "Migos ft. Drake",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         }
       ],
       workout:[
@@ -2205,121 +2729,161 @@ const rap = {
           name: "Lose Yourself",
           artist: "Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Can't Hold Us",
           artist: "Macklemore & Ryan Lewis ft. Ray Dalton",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "SICKO MODE",
           artist: "Travis Scott",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Till I Collapse",
           artist: "Eminem ft. Nate Dogg",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "HUMBLE.",
           artist: "Kendrick Lamar",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Power",
           artist: "Kanye West",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "No Limit",
           artist: "G-Eazy ft. A$AP Rocky, Cardi B",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Started From the Bottom",
           artist: "Drake",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Ante Up",
           artist: "M.O.P.",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Jumpman",
           artist: "Drake & Future",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "All The Way Up",
           artist: "Fat Joe & Remy Ma ft. French Montana",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "N****s in Paris",
           artist: "Jay-Z & Kanye West",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Bad and Boujee",
           artist: "Migos ft. Lil Uzi Vert",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "A Milli",
           artist: "Lil Wayne",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Rockstar",
           artist: "Post Malone ft. 21 Savage",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "DNA.",
           artist: "Kendrick Lamar",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "I Don't Like",
           artist: "Chief Keef ft. Lil Reese",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Suge",
           artist: "DaBaby",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Mo Bamba",
           artist: "Sheck Wes",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Savage",
           artist: "Megan Thee Stallion",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         }
       ],
       g90s:[
@@ -2327,121 +2891,161 @@ const rap = {
           name: "California Love",
           artist: "2Pac ft. Dr. Dre",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Gin and Juice",
           artist: "Snoop Doggy Dogg",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Nuthin' But a 'G' Thang",
           artist: "Dr. Dre ft. Snoop Doggy Dogg",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Juicy",
           artist: "The Notorious B.I.G.",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Regulate",
           artist: "Warren G ft. Nate Dogg",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Keep Their Heads Ringin'",
           artist: "Dr. Dre",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Hypnotize",
           artist: "The Notorious B.I.G.",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Forgot About Dre",
           artist: "Dr. Dre ft. Eminem",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "I Get Around",
           artist: "2Pac",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "It Was a Good Day",
           artist: "Ice Cube",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Mo Money Mo Problems",
           artist: "The Notorious B.I.G. ft. Puff Daddy & Mase",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Gangsta's Paradise",
           artist: "Coolio ft. L.V.",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Jump Around",
           artist: "House of Pain",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Shook Ones Part II",
           artist: "Mobb Deep",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "C.R.E.A.M.",
           artist: "Wu-Tang Clan",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "The Message",
           artist: "Nas",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Still D.R.E.",
           artist: "Dr. Dre ft. Snoop Dogg",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "The World Is Yours",
           artist: "Nas",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Ms. Jackson",
           artist: "OutKast",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Ready or Not",
           artist: "The Fugees",
           cover: "",
-          link: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         }
       ],
       gold:[
@@ -2449,121 +3053,161 @@ const rap = {
           name: "Rapper's Delight",
           artist: "The Sugarhill Gang",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "The Message",
           artist: "Grandmaster Flash and the Furious Five",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Walk This Way",
           artist: "Run-DMC ft. Aerosmith",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "It's Like That",
           artist: "Run-DMC",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Fight the Power",
           artist: "Public Enemy",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Express Yourself",
           artist: "N.W.A.",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Parents Just Don't Understand",
           artist: "DJ Jazzy Jeff & The Fresh Prince",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Children's Story",
           artist: "Slick Rick",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Paid in Full",
           artist: "Eric B. & Rakim",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Straight Outta Compton",
           artist: "N.W.A.",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "The Breaks",
           artist: "Kurtis Blow",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "I Can't Live Without My Radio",
           artist: "LL Cool J",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "I Ain't No Joke",
           artist: "Eric B. & Rakim",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "La Di Da Di",
           artist: "Doug E. Fresh & Slick Rick",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "My Adidas",
           artist: "Run-DMC",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Nuthin' But a 'G' Thang",
           artist: "Dr. Dre ft. Snoop Doggy Dogg",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Mama Said Knock You Out",
           artist: "LL Cool J",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Rock the Bells",
           artist: "LL Cool J",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Planet Rock",
           artist: "Afrika Bambaataa & The Soulsonic Force",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Can't Truss It",
           artist: "Public Enemy",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         }
       ],
       drake:[
@@ -2571,109 +3215,145 @@ const rap = {
           name: "God's Plan",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Hotline Bling",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "In My Feelings",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "One Dance",
           artist: "Drake ft. WizKid, Kyla",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Nice For What",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Started From the Bottom",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Controlla",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Passionfruit",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Nonstop",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Hold On, We're Going Home",
           artist: "Drake ft. Majid Jordan",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Headlines",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Marvins Room",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Fake Love",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Take Care",
           artist: "Drake ft. Rihanna",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Too Good",
           artist: "Drake ft. Rihanna",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Energy",
           artist: "Drake",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Chicago Freestyle",
           artist: "Drake ft. Giveon",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         },
         {
           name: "Money In The Grave",
           artist: "Drake ft. Rick Ross",
           cover: "",
-          links: ["", "", ""]
+          link: ["", 
+          "", 
+          ""]
         }
       ],
 
