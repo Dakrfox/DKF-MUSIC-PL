@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { useState } from 'react';
 import { pop } from 'data.mjs';
 import Card from '@components/card';
+import Footer from '@components/Footer';
 
 
 export default function Pop() {
@@ -35,8 +36,9 @@ export default function Pop() {
   const [showMenu5, setShowMenu5] = useState(false);
   const [showMenu6, setShowMenu6] = useState(false);
 
-
+  console.log(pop.taylor_swift);
   return (
+    <>
     <div className={styles.playlist_container}>
       <div className={styles.title}>
       <Image className={styles.image} src={play_back} width={50} height={50} onClick={handleClickBack}/>
@@ -152,6 +154,9 @@ export default function Pop() {
             </li>
         </ul>
       </div>
+      
     </div>
+    <Footer/>
+    </>
   );
 }
