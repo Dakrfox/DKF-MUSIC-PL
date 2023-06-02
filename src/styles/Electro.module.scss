@@ -17,11 +17,14 @@
 }
 .playlist{
     padding: 50px;
-    font-size: 32px;
+    
 }
 .list_item{
     padding: 20px;
     cursor: pointer;
+}
+.list_item button{
+    font-size: 32px;
 }
 .list{
     list-style: none;
