@@ -32,7 +32,7 @@ export default function Home() {
           <ul className={styles.header_list}>
             <li className={styles.header_list_item}><a href="#hero" className={styles.color_white} >Home</a></li>
             <li className={styles.header_list_item}><a href="#about" className={styles.color_white} >About</a></li>
-            <li className={styles.header_list_item}><a href="#contact" className={styles.color_white}>Contact</a></li>
+            <li className={styles.header_list_item}><a href="#contact" onClick={()=>router.push("/contact")} className={styles.color_white}>Contact</a></li>
             <li className={styles.header_list_item}><a href="https://dkfox.com.co" target="_blank" className={styles.color_white}>DK-Fox</a></li>
           </ul>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
             <Image src={close_menu} className={styles.close_menu} alt="close_menu" width={100} height={80} onClick={() => setMenu(false)} />
             <li className={styles.header_list_item}><a href="#hero" className={styles.color_white} onClick={() => setMenu(false)}> <h1>  Home </h1> </a></li>
             <li className={styles.header_list_item}><a href="#about" className={styles.color_white} onClick={() => setMenu(false)}><h1> About</h1></a></li>
-            <li className={styles.header_list_item}><a href="#contact" className={styles.color_white}><h1> Contact</h1></a></li>
+            <li className={styles.header_list_item}><a href="#contact" onClick={()=>router.push("/contact")} className={styles.color_white}><h1> Contact</h1></a></li>
             <li className={styles.header_list_item}><a href="https://dkfox.com.co" target="_blank" className={styles.color_white}><h1> DK-Fox</h1></a></li>
           </div>
       </div>
