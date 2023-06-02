@@ -329,7 +329,7 @@
     .hero_container {
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
+        
         height: 100vh;
         overflow: hidden;
         background: $--bg;
