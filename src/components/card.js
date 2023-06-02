@@ -25,7 +25,7 @@ export default function Card({ name, author, cover, link }) {
         onMouseLeave={handleMouseLeave}
       >
         <div className={styles.card_img}>
-          <Image src={cover} width="50" height="50" alt={name} />
+          <img src={cover} width="50" height="50" alt={name} />
         </div>
         <div className={styles.card_text}>
           <div className={styles.card_name}>

@@ -80,7 +80,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu1(!showMenu1)}
                 onClick={() => setShowMenu1(!showMenu1)}
               >
-                80&apos;s Greatest Hits
+                80&apos;s Ultimate Hits
               </button>
               {showMenu1 && (
                 <div className={styles.dropdown_content}>
@@ -105,7 +105,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu1(!showMenu1)}
                 onClick={() => setShowMenu(!showMenu)}
               >
-                Rock en Español
+                Rock en Español Extravaganza
               </button>
               {showMenu && (
                 <div className={styles.dropdown_content}>
@@ -130,7 +130,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu2(!showMenu2)}
                 onClick={() => setShowMenu2(!showMenu2)}
               >
-                Rock Classics
+                Classic Rock Anthems
               </button>
               {showMenu2 && (
                 <div className={styles.dropdown_content}>
@@ -155,7 +155,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu3(!showMenu3)}
                 onClick={() => setShowMenu3(!showMenu3)}
               >
-                90&apos;s Greatest hit
+                Best of the 90&apos;s Hits
               </button>
               {showMenu3 && (
                 <div className={styles.dropdown_content}>
@@ -180,7 +180,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu4(!showMenu4)}
                 onClick={() => setShowMenu4(!showMenu4)}
               >
-                Rock N Roll
+                Ultimate Rock N Roll Collection
               </button>
               {showMenu4 && (
                 <div className={styles.dropdown_content}>
@@ -205,7 +205,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu5(!showMenu5)}
                 onClick={() => setShowMenu5(!showMenu5)}
               >
-                Rock N Chill
+                Rock N Chill Vibes
               </button>
               {showMenu5 && (
                 <div className={styles.dropdown_content}>
@@ -230,7 +230,7 @@ export default function Rock() {
                 onKeyDown={() => setShowMenu6(!showMenu6)}
                 onClick={() => setShowMenu6(!showMenu6)}
               >
-                Grunge Essentials
+                Essential Grunge Jams
               </button>
               {showMenu6 && (
                 <div className={styles.dropdown_content}>

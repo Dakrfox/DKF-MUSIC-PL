@@ -105,7 +105,7 @@ export default function Rap() {
                 onKeyDown={() => setShowMenu2(!showMenu2)}
                 onClick={() => setShowMenu2(!showMenu2)}
               >
-                Hip Hop
+                Hip Hop Masterpieces
               </button>
               {showMenu2 && (
                 <div className={styles.dropdown_content}>
@@ -155,7 +155,7 @@ export default function Rap() {
                 onKeyDown={() => setShowMenu4(!showMenu4)}
                 onClick={() => setShowMenu4(!showMenu4)}
               >
-                90&apos;s Greatest
+                Greatest Hits of the 90&apos;s
               </button>
               {showMenu4 && (
                 <div className={styles.dropdown_content}>

@@ -130,7 +130,7 @@ export default function Pop() {
                 onKeyDown={() => setShowMenu3(!showMenu3)}
                 onClick={() => setShowMenu3(!showMenu3)}
               >
-                Girls power
+                Empowered Women Anthems
               </button>
               {showMenu3 && (
                 <div className={styles.dropdown_content}>
@@ -155,7 +155,7 @@ export default function Pop() {
                 onKeyDown={() => setShowMenu4(!showMenu4)}
                 onClick={() => setShowMenu4(!showMenu4)}
               >
-                Dance Pop
+                Dance Pop Extravaganza
               </button>
               {showMenu4 && (
                 <div className={styles.dropdown_content}>
@@ -180,7 +180,7 @@ export default function Pop() {
                 onKeyDown={() => setShowMenu6(!showMenu6)}
                 onClick={() => setShowMenu6(!showMenu6)}
               >
-                2000&apos;s Hits
+                Nostalgic 2000&apos;s Anthems
               </button>
               {showMenu6 && (
                 <div className={styles.dropdown_content}>
