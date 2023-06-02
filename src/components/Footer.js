@@ -13,15 +13,15 @@ export default function Footer() {
             <a href="https://dkfox.com.co" target="_blank">DK-FOX</a>
             <div className={styles.social_media}>
                 <div className="linkedin">
-                    <Image src={linkedin} width={30} height={30} alt ="linkedin"/>
+                    <Image src={linkedin} width={20} height={20} alt ="linkedin"/>
                 </div>
                 <div className={styles.instagram}>
 
-                <Image src={instagram} width={30} height={30} alt ="linkedin"/>
+                <Image src={instagram} width={20} height={20} alt ="linkedin"/>
                 </div>
                 <div className="github">
 
-                <Image src={github} width={30} height={30} alt ="linkedin"/> 
+                <Image src={github} width={20} height={20} alt ="linkedin"/> 
                 </div>
             </div>
             <p onClick={()=> router.push("/")}>DKF-MUSIC-PL</p>

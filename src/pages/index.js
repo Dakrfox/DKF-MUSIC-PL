@@ -7,68 +7,46 @@ import Image from "next/image"
 import Footer from "@components/Footer"
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from "react"
-
-
+import burger_menu from "@icons/menu-sharp.svg"
+import close_menu from "@icons/close-sharp.svg"
 export default function Home() {
   const elementRef = useRef(null);
   const router = useRouter();
-  const [headerColor, setHeaderColor] = useState(true);
+  const [menu, setMenu] = useState(false);
 
-  const [appHeight, setAppHeight] = useState(0);
+ 
 
-  useEffect(() => {
+ 
 
-    const handleResize = () => {
-      setAppHeight(window.innerHeight);
-    };
 
-    if (typeof window !== 'undefined') {
-      handleResize();
-      window.addEventListener('resize', handleResize);
-
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
-    }
-  }, []);
-
-  useEffect(() => {
-    const elemento = elementRef.current;
-    const handleScroll = () => {
-      const posicionScroll = elemento.scrollTop;
-      if (posicionScroll > appHeight) {
-        setHeaderColor(false);
-      } else {
-        setHeaderColor(true);
-      }
-    };
-
-    elemento.addEventListener('scroll', handleScroll);
-
-    return () => {
-      elemento.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  
   return (
 
     <div className={styles.wrapper} ref={elementRef}>
-      <div id="header" className={`${styles.header} ${(headerColor) ? styles.color_white : styles.color_black}`}>
+     
+      <section id="hero" className={styles.hero_container}>
+      <div id="header" className={`${styles.header}`}>
         <div className={styles.header_left}>
           <h2>DKF-MUSIC-PL</h2>
         </div>
         <div className={styles.header_right}>
           <ul className={styles.header_list}>
-            <li className={styles.header_list_item}><a href="#hero" className={(headerColor) ? styles.color_white : styles.color_black} >Home</a></li>
-            <li className={styles.header_list_item}><a href="#about" className={(headerColor) ? styles.color_white : styles.color_black} >About</a></li>
-            <li className={styles.header_list_item}><a href="#contact" className={(headerColor) ? styles.color_white : styles.color_black}>Contact</a></li>
-            <li className={styles.header_list_item}><a href="https://dkfox.com.co" target="_blank" className={(headerColor) ? styles.color_white : styles.color_black}>DK-Fox</a></li>
+            <li className={styles.header_list_item}><a href="#hero" className={styles.color_white} >Home</a></li>
+            <li className={styles.header_list_item}><a href="#about" className={styles.color_white} >About</a></li>
+            <li className={styles.header_list_item}><a href="#contact" className={styles.color_white}>Contact</a></li>
+            <li className={styles.header_list_item}><a href="https://dkfox.com.co" target="_blank" className={styles.color_white}>DK-Fox</a></li>
           </ul>
         </div>
+        <div className={styles.header_menu}>
+          <Image src={burger_menu} alt="burger_menu" width={40} height={40} onClick={() => setMenu(!menu)} />
+        </div>
+          <div className={`${styles.header_menu_list} ${(menu)? styles.show_menu:""}`}>
+            <Image src={close_menu} className={styles.close_menu} alt="close_menu" width={100} height={80} onClick={() => setMenu(false)} />
+            <li className={styles.header_list_item}><a href="#hero" className={styles.color_white} onClick={() => setMenu(false)}> <h1>  Home </h1> </a></li>
+            <li className={styles.header_list_item}><a href="#about" className={styles.color_white} onClick={() => setMenu(false)}><h1> About</h1></a></li>
+            <li className={styles.header_list_item}><a href="#contact" className={styles.color_white}><h1> Contact</h1></a></li>
+            <li className={styles.header_list_item}><a href="https://dkfox.com.co" target="_blank" className={styles.color_white}><h1> DK-Fox</h1></a></li>
+          </div>
       </div>
-      <section id="hero" className={styles.hero_container}>
-
         <div className={styles.rock_container} onClick={() => router.push('/rock')}>
           <div className={styles.content}>
             <div className={styles.icon}>
