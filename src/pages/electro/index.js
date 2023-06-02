@@ -42,31 +42,31 @@ export default function Electro() {
         <Image
           className={styles.image}
           src={play_back}
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           onClick={handleClickBack}
         />
         <Image
           className={styles.image}
           src={play_skip_back}
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           onClick={handleClickBefore}
         />
         <h1>ELECTRO</h1>
         <Image
           className={styles.image}
           src={play_skip_forward}
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           onClick={handleClickNext}
         />
         <Image
           className={styles.image}
           styles="fill:white"
           src={play_forward}
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           onClick={handleClickFinish}
         />
       </div>

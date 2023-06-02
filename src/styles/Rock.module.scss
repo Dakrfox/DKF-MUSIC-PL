@@ -38,3 +38,60 @@
     row-gap: 10px;
     font-size: 20px;
 }
+@media (max-width:1600px) {
+    .list_item_music{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px 50px;
+        font-size: 18px;
+    }
+}
+@media (max-width:1200px) {
+    .list_item_music{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px 50px;
+        font-size: 18px;
+    }
+}
+@media (max-width:800px) {
+    .playlist{
+        padding: 0;
+    }
+    .list_item_music{
+        margin: 0;
+    }
+    .list_item_music{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 0px; 
+    }
+}
+
+@media (max-width:666px) {
+
+}
+@media (max-width:550px) {
+    .playlist_container {
+        
+        padding: 1%;
+    }
+    .list_item_music{
+        padding-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 20%;
+        font-size: 14px;
+    }
+    .playlist {
+        
+        padding: 10px;
+        font-size: 32px;
+    }
+    .list_item {
+        padding: 20px;
+    }
+}
+@media (max-width:400px) {
+    
+    .list_item_music{ 
+        margin: 0 1%; 
+    }
+   
+}
