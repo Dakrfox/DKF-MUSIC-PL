@@ -329,7 +329,7 @@
     .hero_container {
         display: grid;
         grid-template-columns: auto auto;
-        
+        grid-template-rows: auto 1fr 1fr;
         height: 100vh;
         overflow: hidden;
         background: $--bg;
@@ -341,9 +341,11 @@
     .electro_container,
     .rap_container {
         transform: skewX(0deg);
+        height: calc(50vh - 37.5px);
     }
 
     .rock_container {
+        
         grid-column: 1;
         grid-row: 2;
     }

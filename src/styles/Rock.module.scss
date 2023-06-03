@@ -22,9 +22,11 @@
 .list_item {
     padding: 20px;
     cursor: pointer;
+    
 }
 .list_item button{
     font-size: 32px;
+   
 }
 .list {
     list-style: none;
@@ -87,7 +89,8 @@
         font-size: 32px;
     }
     .list_item {
-        padding: 20px;
+        padding: 20px; 
+        text-align: center;
     }
 }
 @media (max-width:400px) {
